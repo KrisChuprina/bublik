@@ -8,60 +8,60 @@ body {
 /* font-family: "MyriadProRegular"; */
 @font-face {
     font-family: "MyriadProRegular";
-    src: url("../uxbublik/fonts/MyriadProRegular/MyriadProRegular.eot");
-    src: url("../uxbublik/fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
-    url("../uxbublik/fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
-    url("../uxbublik/fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "MyriadProBold"; */
 @font-face {
     font-family: "MyriadProBold";
-    src: url("../uxbublik/fonts/MyriadProBold/MyriadProBold.eot");
-    src: url("../uxbublik/fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
-    url("../uxbublik/fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
-    url("../uxbublik/fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "MyriadProItalic"; */
 @font-face {
     font-family: "MyriadProItalic";
-    src: url("../uxbublik/fonts/MyriadProItalic/MyriadProItalic.eot");
-    src: url("../uxbublik/fonts/MyriadProItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
-    url("../uxbublik/fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
-    url("../uxbublik/fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+    src: url("../fonts/MyriadProItalic/MyriadProItalic.eot");
+    src: url("../fonts/MyriadProItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
+    url("../fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "MyriadProSemiBold"; */
 @font-face {
     font-family: "MyriadProSemiBold";
-    src: url("../uxbublik/fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
-    src: url("../uxbublik/fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
-    url("../uxbublik/fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
-    url("../uxbublik/fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+    src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+    src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+    url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "MyriadProBoldItalic"; */
 @font-face {
     font-family: "MyriadProBoldItalic";
-    src: url("../uxbublik/fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot");
-    src: url("../uxbublik/fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot?#iefix")format("embedded-opentype"),
-    url("../uxbublik/fonts/MyriadProBoldItalic/MyriadProBoldItalic.woff") format("woff"),
-    url("../uxbublik/fonts/MyriadProBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
+    src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot");
+    src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.woff") format("woff"),
+    url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 /* font-family: "MyriadProSemiBoldItalic"; */
 @font-face {
     font-family: "MyriadProSemiBoldItalic";
-    src: url("../uxbublik/fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot");
-    src: url("../uxbublik/fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
-    url("../uxbublik/fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"),
-    url("../uxbublik/fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
+    src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot");
+    src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"),
+    url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -75,16 +75,6 @@ body {
 .container {
   width: 100%;
   padding: 0 5%;
-}
-
-.size-large, .size-medium, .size-small {     /*add by koloskova */
-  width: 100%;
- /* max-width: 1480px;*/ 
-  height: auto;
-}
-
-.aligncenter img {     /*add by koloskova */
-  margin: 0 auto;
 }
 
 /*Хэдер*/
@@ -141,12 +131,9 @@ header a{
 }
 
 .main-menu .active {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #373737;
+  padding-bottom: 3px;
 }
-
-li.current_page_item a {          /* add by koloskova - alternative for out function nav (don't rename this class!) */
-   border-bottom: 3px solid black;   
-} 
 
 /*Главная*/
 
@@ -278,12 +265,12 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 }
 
 .text-about .pixate {
-  height: 40px;
-  width: 40px;
+  height: 36px;
+  width: 36px;
 }
 
 .text-about img:not(:last-of-type) {
-  margin-right: 14.3%;
+  margin-right: 9%;
 }
 
 .reviews > input[type="radio"] {
@@ -291,7 +278,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 }
 
 .reviews {
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
@@ -326,7 +313,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 }
 
 .reviews .slider {
-  margin-top: 30px;
+  margin-top: 45px;
   text-align: center;
 }
 
@@ -391,10 +378,10 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   color: #1a1e23;
   font-size: 12px;
   font-weight: 600;
-  line-height: 14px;
+  line-height: 0; /*NEW*/
 }
 
-.article img {
+.article .img-blog{ /*NEW*/
   float: right;
   top: 25px;
   display: block;
@@ -421,7 +408,6 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 }
 
 .article .connecting {
-  position: relative;      /* add by koloskova */
   text-decoration: none;
   color: #989898;
   font-size: 10px;
@@ -429,21 +415,6 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   line-height: 13px;
   float: right;
   margin-top: 20px;
-  z-index: 5;
-}
-
-.article .connect {         /* add by koloskova */
-  float: right;  
-}
-
-.article .connect a{        /* add by koloskova */
-  display: inline-block;
-  vertical-align: top;
-}
-
-.article .connecting,
-.article .connect-list {       /* add by koloskova */
-  display: none;
 }
 
 .pagination {
@@ -463,7 +434,10 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   font-size: 24px;
   font-weight: 600;
   line-height: 24px;
-  margin-right: 10px;
+}
+
+.pagination a:not(:last-of-type) {
+  margin-right: 10px;  
 }
 
 .pagination .active {
@@ -474,10 +448,23 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   background-color: #d8d8d8;
 }
 
+.blog a.button {
+  display: none;
+}
+
+/*NEW*/
+
+.blog .connect {
+  float: right;  
+  margin-top: 10px;
+  height: 60px;
+}
+
 /*Блог внутренняя*/
 
 .in-blog .container {
   padding: 0 10%;
+  margin-top: 20px;
 }
 
 .in-blog .back {
@@ -552,24 +539,31 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   margin-top: 30px;
 }
 
-.in-blog .connect a{
+.in-blog .connect a,
+.blog .connect a {
   display: inline-block;
   vertical-align: top;
 }
 
-.in-blog .connect a:not(:last-of-type) {
+.in-blog .connect a:not(:last-of-type),
+.blog .connect a:not(:last-of-type) {
   margin-right: 25px;
 }
 
 .connect-list a:hover,
 .in-blog .back-all:hover,
 .in-blog .back:hover,
-.in-blog .hash:hover {
+.in-blog .hash:hover,
+.blog .back-all:hover,
+.blog .back:hover,
+.blog .hash:hover {
   color: #000000;    
 } 
 
 .in-blog .connect-name,
-.in-blog .connect-list {
+.in-blog .connect-list,
+.blog .connect-name,
+.blog .connect-list{
   display: none;
 }
 
@@ -685,7 +679,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 
 .projects .about-max,
 .projects .about-haus {
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 80px;
   margin-top: 20px;
   text-align: center;
@@ -765,7 +759,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   content: '';
   display: block;
   width: 60px;
-  border-top: 1px solid #1a1e23; 
+  border-top: 1px solid #1c1e23; 
   margin-right: auto;
   margin-left: auto;
   margin-top: 15px;
@@ -775,7 +769,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   content: '';
   display: block;
   width: 60px;
-  border-top: 1px solid #1a1e23; 
+  border-top: 1px solid #1c1e23; 
   margin-right: auto;
   margin-left: auto;
   margin-top: 80px;
@@ -792,27 +786,11 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   margin-right: auto;
 }
 
-.grey .pattern.container {
-  padding-bottom: 60px;
-}
-
-.white .pattern.container {
-  padding-top: 60px;
-}
-
 .projects .img-2 {
   display: block;
   width: 90%;
   margin-right: auto;
   margin-left: auto;
-}
-
-.grey .test.container {
-  padding-bottom: 60px;
-}
-
-.white .test.container {
-  padding-top: 10px;
 }
 
 .unit {
@@ -849,18 +827,36 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   margin-top: 15px;
 }
 
-.grey .conclusion.container {
-  padding-bottom: 60px;
-}
-
-.black .conclusion.container {
-  padding-top: 25px;
-}
-
 .black .conclusion .h3,
 .black .conclusion .text-3{
   color: #cecece;
 }
+
+/*NEW*/
+
+.grey .block.max.pattern,
+.grey .block.max.test,
+.grey .block.max.conclusion {
+  padding-bottom: 60px;
+}
+
+.white .block.max.pattern {
+  padding-top: 50px;
+}
+
+.white .block.max.test,
+.black .block.max.conclusion {
+  padding-top: 60px;
+}
+
+.white .block.max.test .result:first-of-type .h2,
+.black .block.max.conclusion .task:first-of-type .h3 {
+  margin-top: 0;
+}
+
+/**/
+
+
 
 /*Хаусдорф*/
 
@@ -869,7 +865,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   margin-top: 0;
 }
 
-.white .scenario-haus .text-1:first-of-type {
+.white .scenario-2.haus .text-1:first-of-type { /*NEW*/
   margin-top: 0;
 }
 
@@ -952,11 +948,19 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   display: none;
 }
 
+/*NEW*/
+
+.reviews.selvis:first-of-type {
+  padding-top: 100px;
+}
+
 .reviews.selvis {
   background-color: white;
   padding-top: 80px;
   padding-bottom: 0;
-}
+}  
+
+/**/
 
 .reviews.selvis p,
 .reviews.selvis .caption {
@@ -1004,6 +1008,34 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 .iteration .h3,
 .iteration .text-3 {
   color: #cecece;
+}
+
+.units.selvis .unit span {
+  color: #ff2c2c;
+}
+
+/*NEW*/
+
+.block.test.selvis.container .text-1:first-of-type {
+  margin-top: 0;
+}
+
+/*Selvis-mobile NEW*/
+
+.selvis-mobile .white .test.container {
+  padding-top: 80px;
+}
+
+.background .back {
+  display: none;
+}
+
+.container.background {
+  padding-bottom:80px;
+}
+
+.shadow {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (min-width: 760px) {
@@ -1146,7 +1178,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   }
 
   .reviews {
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 80px;
   }
 
@@ -1217,7 +1249,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-top: 15px;
   }
 
-  .article img {
+  .article .img-blog {
     width: 160px;
     height: 160px;
     top: 45px;
@@ -1237,19 +1269,6 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     line-height: 18px;
     margin-top: 30px;
   }
-  
-  .article .connect {        /* add by koloskova */
-    margin-top: 40px;
-  }
-
-  .article .connect a:not(:last-of-type) {    /* add by koloskova */
-    margin-right: 40px;
-  }
-
-  .article .connect img {   /* add by koloskova */
-    width: 40px;
-    height: 40px;
-  }
 
   .pagination {
     margin: 100px auto;
@@ -1266,7 +1285,18 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-right: 10px;
   }
 
+  /*NEW*/
+
+  .blog .connect {
+    float: right;  
+    margin-top: 20px;
+  }
+
   /*Блог внутренняя*/
+
+  .in-blog .container {
+    margin-top: 50px;
+  }
 
   .in-blog .back-all {
     color: #969696;
@@ -1332,11 +1362,13 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-top: 40px;
   }
 
-  .in-blog .connect a:not(:last-of-type) {
+  .in-blog .connect a:not(:last-of-type),
+  .blog .connect a:not(:last-of-type) {
     margin-right: 40px;
   }
 
-  .in-blog .connect img {
+  .in-blog .connect img,
+  .blog .connect img {
     width: 40px;
     height: 40px;
   }
@@ -1434,6 +1466,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 
   .about-max .h1,
   .about-haus .h1 {
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1514,7 +1547,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     content: '';
     display: block;
     width: 100px;
-    border-top: 2px solid #1a1e23; 
+    border-top: 2px solid #1c1e23; 
     margin-right: auto;
     margin-left: auto;
     margin-top: 20px;
@@ -1524,7 +1557,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     content: '';
     display: block;
     width: 100px;
-    border-top: 2px solid #1a1e23; 
+    border-top: 2px solid #1c1e23; 
     margin-right: auto;
     margin-left: auto;
     margin-top: 100px;
@@ -1550,23 +1583,6 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   .img-sketch,
   .img-scheme {
     margin-right: 8%;
-  }
-
-  .grey .pattern.container {
-    padding-bottom: 120px;
-  }
-
-  .white .pattern.container {
-    padding-top: 120px;
-  }
- 
-
-  .grey .test.container {
-    padding-bottom: 100px;
-  }
-
-  .white .test.container {
-    padding-top: 20px;
   }
 
   .units {
@@ -1599,13 +1615,29 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-top: 10px;
   }
 
-  .grey .conclusion.container {
+  /*NEW*/
+
+  .grey .block.max.pattern,
+  .grey .block.max.test,
+  .grey .block.max.conclusion {
     padding-bottom: 100px;
   }
 
-  .black .conclusion.container {
-    padding-top: 60px;
+  .white .block.max.pattern {
+    padding-top: 80px;
   }
+
+  .white .block.max.test,
+  .black .block.max.conclusion {
+    padding-top: 100px;
+  }
+
+  .white .block.max.test .result:first-of-type .h2,
+  .black .block.max.conclusion .task:first-of-type .h3 {
+    margin-top: 0;
+  }
+
+  /**/
 
 
   /*Хаусдорф*/
@@ -1650,6 +1682,23 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-top: 0;
   }
 
+  /*New*/
+
+  .white .scenario.haus.block {
+    padding-bottom: 120px;
+  } 
+
+  .grey .scenario.haus.block {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .white .scenario-2.haus.block {
+    padding-top: 120px;
+  }
+
+  /**/
+
   .scenario-haus .steps {
     font-size: 46px;
     font-weight: 400;
@@ -1681,7 +1730,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 
   .reviews.haus {
     background-color: #f2f2f2;
-    padding-top: 60px;
+    padding-top: 80px;
     padding-bottom: 0;
   }
 
@@ -1770,9 +1819,13 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-right: 9%;
   }
 
+  .reviews.selvis:first-of-type {
+    padding-top: 120px;
+  }
+
   .reviews.selvis {
     background-color: white;
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 0;
   }
 
@@ -1780,6 +1833,13 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     padding-top: 140px;
     padding-bottom: 100px;
   }
+
+  /*New*/
+
+  .iteration .tasks {
+    margin-top: 0;
+  }
+
 
   .iteration.block {
     padding-bottom: 100px;
@@ -1803,10 +1863,48 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-top: 30px;
   }
 
-  .units.selvis .unit span {
-    color: #ff2c2c;
+  /*Selvis-mobile NEW*/
+
+  .selvis-mobile .white .test.container {
+    padding-top: 180px;
   }
 
+  .selvis-mobile  .imac {
+    max-width: 540px;
+  }
+
+  .selvis-mobile .gif {
+    width: 120%;
+    margin-left: -10%;
+    max-width: 900px;
+  }
+
+  .selvis-mobile .about-project {
+    padding-bottom: 0;
+  }
+
+  .container.background {
+    padding-top: 140px;
+    padding-bottom: 0;
+  }
+
+  .background {
+    position: relative;
+  }
+
+  .background .back {
+    display: block;
+    width: 110%;
+    margin-left: -5%;
+  }
+
+  .background .iphone {
+    width: 220px;
+    position: absolute;
+    top: 260px;
+    right: 100px;
+  }
+  
 }
 
 @media screen and (min-width: 1101px) {
@@ -1951,6 +2049,8 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   }
 
   .icons {
+    margin-top: 150px;
+    margin-bottom: 150px;
     width: 820px;
     margin-left: -110px;
   }
@@ -1983,6 +2083,15 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-right: 110px;
   }
 
+  /*NEW*/
+
+  .reviews {
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+
+  /**/
+
   .review { 
     width: 600px;
   }
@@ -1991,6 +2100,14 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     font-size: 18px;
     line-height: 23px;
   }
+
+  /*NEW*/
+
+  .reviews .slider {
+    margin-top: 70px;
+  }
+
+  /**/
 
   .reviews .caption {
     font-size: 20px;
@@ -2043,10 +2160,9 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 
   .article .connecting {
     margin-top: 20px;
-	display: block;      /* add by koloskova */
   }
 
-  .blog .button {
+  .blog a.button {
     display: block;
     width: 245px;
     height: 40px;
@@ -2063,30 +2179,9 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     text-decoration: none;
     padding-top: 12px;
   }
-  
-    .article .connect-list {      /* add by koloskova */
-    position: absolute;
-    width: 205px;
-    top: -10px;
-    right: -40px;
-    list-style: none;
-    background-color: white;
-    padding-top: 35px;
-    border: 1px solid #d8d8d8;
-    z-index: -1;
-    display: none;
-  }
-  
-  .article .connecting:hover .connect-list {       /* add by koloskova */
-    display: block;
-  }
-  
-  .article .connect {       /* add by koloskova */
-    display: none;
-  }
 
   .pagination {
-    width: 300px;
+    width: 320px;
     margin: 0;    
     position: absolute;
     right: 0;
@@ -2149,11 +2244,13 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     height: 100px;
   }
 
-  .in-blog .connect {
+  .in-blog .connect,
+  .blog .connect {
     display: none;
   }
 
-  .in-blog .connect-name {
+  .in-blog .connect-name,
+  .blog .connect-name {
     color: #969696;
     font-size: 18px;
     font-weight: 600;
@@ -2169,7 +2266,19 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     max-width: 205px;
   }  
 
-  .in-blog .connect-list {
+  .blog .connect-name {
+    color: #989898;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-top: 25px;
+    width: 200px;
+    max-width: 200px;
+    margin-right: -20px;
+  }
+
+  .in-blog .connect-list,
+  .blog .connect-list {
     position: absolute;
     width: 205px;
     top: -10px;
@@ -2180,6 +2289,10 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     border: 1px solid #d8d8d8;
     z-index: -1;
     display: none;
+  }
+
+  .blog .connect-list {
+    width: 200px;
   }
 
   .connect-list a {
@@ -2200,11 +2313,13 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     border-top: 1px solid #d8d8d8;
   }
 
-  .in-blog .connect-name:hover .connect-list {
+  .in-blog .connect-name:hover .connect-list,
+  .blog .connect-name:hover .connect-list {
     display: block;
   }
 
-  .in-blog .back-all:last-of-type {
+  .in-blog .back-all:last-of-type,
+  .blog .back-all:last-of-type {
     margin-bottom: 50px;
   }
 
@@ -2261,8 +2376,8 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   }
 
   .projects .block {
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 180px;
+    padding-bottom: 180px;
   }
   
   .projects .about-max.container,
@@ -2274,6 +2389,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 
   .projects .about-max .h1,
   .projects .about-haus .h1 {
+    margin-top: 0;
     margin-right: auto;
     margin-left: auto;
   }
@@ -2342,7 +2458,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     content: '';
     display: block;
     width: 200px;
-    border-top: 2px solid #1a1e23; 
+    border-top: 2px solid #1c1e23; 
     margin-right: auto;
     margin-left: auto;
     margin-top: 30px;
@@ -2352,7 +2468,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     content: '';
     display: block;
     width: 200px;
-    border-top: 2px solid #1a1e23; 
+    border-top: 2px solid #1c1e23; 
     margin-right: auto;
     margin-left: auto;
     margin-top: 120px;
@@ -2377,22 +2493,6 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-right: 50px;
   }
 
-  .grey .pattern.container {
-    padding-bottom: 120px;
-  }
-
-  .white .pattern.container {
-    padding-top: 100px;
-  } 
-
-  .grey .test.container {
-    padding-bottom: 120px;
-  }
-
-  .white .test.container {
-    padding-top: 1px;
-  }
-
   .units {
     width: 1000px;
   }
@@ -2415,18 +2515,6 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 
   .unit p {
     margin-top: 15px;
-  }
-
-  .grey .conclusion.container {
-    padding-bottom: 150px;
-  }
-
-  .black .conclusion.container {
-    padding-top: 150px;
-  }
-
-  .black .conclusion.container .tasks {
-    margin-top: 0;
   }
 
   .tasks,
@@ -2483,6 +2571,35 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-top: 110px;
   }
 
+  /*NEW*/
+
+  .grey .block.max.pattern,
+  .grey .block.max.test,
+  .grey .block.max.conclusion {
+    padding-bottom: 120px;
+  }
+
+  .white .block.max.pattern {
+    padding-top: 100px;
+  }
+
+  .white .block.max.test,
+  .black .block.max.conclusion {
+    padding-top: 120px;
+  }
+
+  .white .block.max.test .result:first-of-type .h2,
+  .black .block.max.conclusion .task:first-of-type .h3 {
+    margin-top: 0;
+  }
+
+  .white .block.max.test .results,
+  .black .block.max.conclusion .tasks {
+    margin-top: 0;
+  }
+
+  /**/
+
 
   /*Хаусдорф*/
 
@@ -2495,7 +2612,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 
   .units.haus .unit {
     width: 319px;
-    height: 220px;
+    height: 250px;
     padding: 40px 30px;
     display: inline-block;
     vertical-align: top;
@@ -2547,6 +2664,27 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-top: 0;
   }
 
+  /*New*/
+
+  .white .scenario.haus.block {
+    padding-bottom: 150px;
+  } 
+
+  .grey .scenario.haus.block {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .white .scenario-2.haus.block {
+    padding-top: 150px;
+  }
+
+  .foot.img.img-m {
+    max-width: 820px;
+  }
+
+  /**/
+
   .scenario-haus .steps {
     font-size: 52px;
     line-height: 52px;
@@ -2575,6 +2713,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     vertical-align: top;
     width: 260px;
     margin-top: 0;
+    margin-left: 0; /*NEW*/
   }
 
   .scenario-haus .row:not(:first-of-type) {
@@ -2618,7 +2757,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 
   .reviews.haus {
     background-color: #f2f2f2;
-    padding-top: 110px;
+    padding-top: 120px;
     padding-bottom: 0;
   }
 
@@ -2849,6 +2988,80 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-top: 0;
   }
 
+  /*NEW*/
+
+  .reviews.selvis:first-of-type {
+    padding-top: 150px;
+  }
+
+  .reviews.selvis {
+    padding-top: 120px;
+  }
+
+  /*Selvis-mobile NEW*/
+
+  .selvis-mobile .white .test.container {
+    padding-top: 140px;
+  }
+
+  .selvis-mobile  .imac {
+    max-width: 395px;
+  }
+
+  .selvis-mobile .i-three {
+    text-align: center;
+  }
+
+  .selvis-mobile .i-three .img {
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+  }
+
+  .selvis-mobile .i-three .img:not(:last-of-type) {
+    margin-right: 60px;
+  }
+
+  .selvis-mobile .gif {
+    width: 120%;
+    max-width: 900px;
+    margin-left: 0;
+  }
+
+  .selvis-mobile .i-two img {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    margin-top: 0;
+  }
+
+  .selvis-mobile .i-two {
+    text-align: center;
+  }
+
+  .selvis-mobile .i-two .gif {
+    width: 640px;
+    margin-top: 90px;
+  }
+
+  .background.container {
+    padding-top: 0;
+    width: 100%;
+  }
+
+  .background .back {
+    width: 100%;
+    margin: 0;
+  }
+
+  .background .iphone {
+    width: 340px;
+    position: absolute;
+    top: 125px;
+    right: 150px;
+  }
+
 }
 
 @media screen and (min-width: 1441px) {
@@ -2876,6 +3089,8 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     font-weight: 700;
     line-height: 19px;
     margin-left: 100px;
+    width: 550px;
+    max-width: 550px;
   }
 
   header .main-menu {
@@ -2965,6 +3180,8 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   }
 
   .icons {
+    margin-top: 180px;
+    margin-bottom: 180px;
     width: 820px;
     margin-left: 0;
   }
@@ -2985,7 +3202,16 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-top: 50px;
   }
 
-    /*Блог*/
+  /*NEW*/
+
+  .reviews {
+    padding-top: 140px;
+    padding-bottom: 100px;
+  }
+
+  /**/
+
+  /*Блог*/
 
   .article {
     width: 1300px;
@@ -3027,10 +3253,6 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
-  }
-  
-  .article .connect {
-    display: none;
   }
 
   .blog button {
@@ -3151,6 +3373,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   }
 
   .projects .about-max .h1 {
+    margin-top: 0;
     margin-right: auto;
     margin-left: auto;
   }
@@ -3219,7 +3442,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     content: '';
     display: block;
     width: 200px;
-    border-top: 2px solid #1a1e23; 
+    border-top: 2px solid #1c1e23; 
     margin-right: auto;
     margin-left: auto;
     margin-top: 40px;
@@ -3229,7 +3452,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     content: '';
     display: block;
     width: 200px;
-    border-top: 2px solid #1a1e23; 
+    border-top: 2px solid #1c1e23; 
     margin-right: auto;
     margin-left: auto;
     margin-top: 180px;
@@ -3254,22 +3477,6 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-right: 120px;
   }
 
-  .grey .pattern.container {
-    padding-bottom: 180px;
-  }
-
-  .white .pattern.container {
-    padding-top: 150px;
-  } 
-
-  .grey .test.container {
-    padding-bottom: 180px;
-  }
-
-  .white .test.container {
-    padding-top: 1px;
-  }
-
   .units {
     width: 1300px;
   }
@@ -3292,18 +3499,6 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 
   .unit p {
     margin-top: 20px;
-  }
-
-  .grey .conclusion.container {
-    padding-bottom: 180px;
-  }
-
-  .black .conclusion.container {
-    padding-top: 180px;
-  }
-
-  .black .conclusion.container .tasks {
-    margin-top: 1px;
   }
 
   .tasks,
@@ -3360,6 +3555,35 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-top: 140px;
   }
 
+  /*NEW*/
+
+  .grey .block.max.pattern,
+  .grey .block.max.test,
+  .grey .block.max.conclusion {
+    padding-bottom: 180px;
+  }
+
+  .white .block.max.pattern {
+    padding-top: 150px;
+  }
+
+  .white .block.max.test,
+  .black .block.max.conclusion {
+    padding-top: 180px;
+  }
+
+  .white .block.max.test .result:first-of-type .h2,
+  .black .block.max.conclusion .task:first-of-type .h3 {
+    margin-top: 0;
+  }
+
+  .white .block.max.test .results,
+  .black .block.max.conclusion .tasks {
+    margin-top: 0;
+  }
+
+  /**/
+
 
 
    /*Хаусдорф*/ /*NEW*/
@@ -3370,7 +3594,7 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 
   .units.haus .unit {
     width: 400px;
-    height: 250px;
+    height: 300px;
     padding: 50px 50px;
 
   }
@@ -3417,14 +3641,31 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-top: 0;
   }
 
+  /*New*/
+
+  .white .scenario.haus.block {
+    padding-bottom: 180px;
+  } 
+
+  .grey .scenario.haus.block {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+
+  .white .scenario-2.haus.block {
+    padding-top: 180px;
+  }
+
+  /**/
+
   .scenario-haus .steps {
-    font-size: 52px;
-    line-height: 52px;
-    width: 125px;
-    max-width: 140px;
+    font-size: 58px;
+    line-height: 58px;
+    width: 150px;
+    max-width: 150px;
     display: inline-block;
     vertical-align: top;
-    margin-right: 30px;
+    margin-right: 80px;
   }
 
   .scenario-haus .steps:not(.first-step) {
@@ -3432,54 +3673,55 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
   }
 
   .scenario-haus .up-15.img {
-    width: 540px;
+    width: 700px;
     display: inline-block;
     vertical-align: top;
-    max-width: 540px;
+    max-width: 700px;
     margin-top: 0;
-    margin-right: 38px;
+    margin-right: 80px;
   }
 
   .projects .scenario-haus .row .text-3{
     display: inline-block;
     vertical-align: top;
-    width: 260px;
+    width: 280px;
     margin-top: 0;
   }
 
   .scenario-haus .row:not(:first-of-type) {
-    margin-top: 150px;
+    margin-top: 180px;
   }
 
   .scenario-haus .row-2 {
-    margin-top: 50px;
+    margin-top: 80px;
   }
 
   .projects .scenario-haus .row-2 .img-s {
     display: inline-block;
     vertical-align: top;
     margin: 0;
-    margin-left: 157px;
-    margin-right: 39px;
-    width: 540px;
-    max-width: 540px;
+    margin-left: 240px;
+    margin-right: 70px;
+    width: 700px;
+    max-width: 700px;
   }
 
   .scenario-haus .row .img-m{
-    width: 540px;
+    width: 700px;
     display: inline-block;
     vertical-align: top;
-    margin-right: 38px;
+    margin-right: 70px;
   }
 
   .scenario-haus .row .img-step-3,
   .scenario-haus .row .img-step-3-right {
-    width: 260px;
+    max-width: 320px;
+    width: 320px;
     margin-top: 0;
   }
 
   .scenario-haus .row .img-step-3-right {
-    margin-right: 15px;
+    margin-right: 56px;
   }
 
   .projects .scenario-haus .text-3 {
@@ -3642,12 +3884,12 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
 
   .white .selvis.test.container {
     padding-top: 180px;
-    padding-bottom: 120px;
+    padding-bottom: 150px;
   }
 
   .iteration.block {
-    padding-bottom: 120px;
-    padding-top: 120px;
+    padding-bottom: 150px;
+    padding-top: 150px;
   }
 
   .iteration .iterate {
@@ -3704,6 +3946,78 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     left: 620px;
     top: 290px;
     margin-top: 0;
+  }
+
+  /*NEW*/
+
+  .reviews.selvis:first-of-type {
+    padding-top: 180px;
+  }
+
+  .reviews.selvis {
+    padding-top: 150px;
+  }
+
+  /*Selvis-mobile NEW*/
+
+  .selvis-mobile .white .test.container {
+    padding-top: 220px;
+  }
+
+  .selvis-mobile  .imac {
+    max-width: 440px;
+  }
+
+  .selvis-mobile .img-1000 {
+    width: 1000px;
+  }
+
+  .selvis-mobile .i-three {
+    text-align: center;
+  }
+
+  .selvis-mobile .i-three .img {
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+  }
+
+  .selvis-mobile .i-three .img:not(:last-of-type) {
+    margin-right: 50px;
+  }
+
+  .selvis-mobile .i-two img {
+    display: inline-block;
+    vertical-align: top;
+    width: 480px;
+    margin-top: 0;
+  }
+
+  .selvis-mobile .i-two {
+    text-align: center;
+  }
+
+  .selvis-mobile .i-two .gif {
+    width: 810px;
+    margin-top: 130px;
+  }
+
+  .background.container {
+    padding-top: 0;
+    width: 100%;
+  }
+
+  .background .back {
+    width: 100%;
+    margin: 0;
+  }
+
+  .background .iphone {
+    width: 440px;
+    position: absolute;
+    top: 170px;
+    right: 210px;
   }
 
 }
@@ -3784,9 +4098,22 @@ li.current_page_item a {          /* add by koloskova - alternative for out func
     margin-left: 0;
    }
 
-}
-ainer {
-    margin-left: 0;
-   }
+   /*NEW*/
+
+  .projects .h1,
+  .projects .h4 {
+    margin-left: 310px;
+  }
+
+  /*New*/
+
+  .projects .about-max.container,
+  .projects .about-haus.container {
+    margin-top: 0;
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+
+  /**/
 
 }

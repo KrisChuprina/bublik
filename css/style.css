@@ -1,0 +1,3792 @@
+html,
+body {
+  margin:0;
+  padding:0;
+  background-color: #ececec;
+  font: 100%/1.5em "MyriadProRegular", "Avenir", sans-serif;
+}
+/* font-family: "MyriadProRegular"; */
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../uxbublik/fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../uxbublik/fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../uxbublik/fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../uxbublik/fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProBold"; */
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("../uxbublik/fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("../uxbublik/fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("../uxbublik/fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("../uxbublik/fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProItalic"; */
+@font-face {
+    font-family: "MyriadProItalic";
+    src: url("../uxbublik/fonts/MyriadProItalic/MyriadProItalic.eot");
+    src: url("../uxbublik/fonts/MyriadProItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
+    url("../uxbublik/fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
+    url("../uxbublik/fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProSemiBold"; */
+@font-face {
+    font-family: "MyriadProSemiBold";
+    src: url("../uxbublik/fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+    src: url("../uxbublik/fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../uxbublik/fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+    url("../uxbublik/fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProBoldItalic"; */
+@font-face {
+    font-family: "MyriadProBoldItalic";
+    src: url("../uxbublik/fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot");
+    src: url("../uxbublik/fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../uxbublik/fonts/MyriadProBoldItalic/MyriadProBoldItalic.woff") format("woff"),
+    url("../uxbublik/fonts/MyriadProBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProSemiBoldItalic"; */
+@font-face {
+    font-family: "MyriadProSemiBoldItalic";
+    src: url("../uxbublik/fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot");
+    src: url("../uxbublik/fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../uxbublik/fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"),
+    url("../uxbublik/fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding: 0 5%;
+}
+
+.size-large, .size-medium, .size-small {     /*add by koloskova */
+  width: 100%;
+ /* max-width: 1480px;*/ 
+  height: auto;
+}
+
+.aligncenter img {     /*add by koloskova */
+  margin: 0 auto;
+}
+
+/*Хэдер*/
+
+header .logo {
+  display: block;
+  margin-top: 35px;
+  width: 17.96875%;
+  max-width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header .definition {
+  display: block;
+  text-align: center;
+  max-width: 493px;
+  margin:auto;
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #373737;
+  font-family: "MyriadProRegular", "Avenir", sans-serif;
+}
+
+header .main-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main-menu li {
+  display:inline-block;
+  vertical-align: top;
+  font-family: "MyriadProRegular", "Avenir", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+
+.main-menu li:not(:last-of-type) {
+  margin-right: 15%;
+}
+
+header a{
+  list-style: none;
+  color: #373737;
+  text-decoration: none;
+}
+
+.main-menu .active {
+  border-bottom: 3px solid black;
+}
+
+li.current_page_item a {          /* add by koloskova - alternative for out function nav (don't rename this class!) */
+   border-bottom: 3px solid black;   
+} 
+
+/*Главная*/
+
+.group {  
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+  padding: 20px 30px 35px;
+  text-align: center;
+  min-height: 320px;
+  min-width: 300px;
+  max-width: 540px;
+  max-height: 540px;
+  background-color: white;
+  border: 1px solid #dedede;
+  border-radius: 2px;
+}
+
+.selvis-m {
+  margin-top: 60px;
+}
+
+.group .logo {
+  width: 40%;
+  min-width: 120px;
+  max-width: 180px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 4px solid #ececec;
+  box-sizing: border-box;
+}
+
+.group .logo img {
+  width: 100%;
+  margin-bottom: -7px;
+}
+
+.group .h1 {
+  text-decoration: none;
+  color: #1a1e23;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+  margin-top: 20px;
+}
+
+.group span {
+  color: #1a1e23;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  font-family: "MyriadProRegular", "Avenir", sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+/*Футер*/
+
+.mail {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #373737;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-top: 110px;
+}
+
+.copyright {
+  color: #464646;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 74px;
+  margin-bottom: 30px;
+}
+
+/*Обо мне*/
+
+.about-me .photo {
+  width: 100%;
+  height: 420px;
+  margin-top: 17px;
+}
+
+.text-about {
+  width: 80%;
+  max-width: 540px;
+  margin: 0 auto;
+  color: #1a1e23;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.text-about p:not(:first-of-type) {
+  margin-top: 20px;
+}
+
+.icons {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.icons img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.text-about .balsamiq {
+  height: 39px;
+  width: 39px;
+}
+
+.text-about .axure {
+  height: 36px;
+  width: 36px;
+}
+
+.text-about .sketch {
+  height: 40px;
+  width: 40px;
+}
+
+.text-about .pixate {
+  height: 40px;
+  width: 40px;
+}
+
+.text-about img:not(:last-of-type) {
+  margin-right: 14.3%;
+}
+
+.reviews > input[type="radio"] {
+  display: none;
+}
+
+.reviews {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.reviews p {
+  color: #fefefe;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 14px;
+}
+
+.reviews p:not(:first-of-type) {
+  margin-top: 20px;
+}
+
+.review {
+  width: 80%;
+  max-width: 540px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  margin: 0 auto;
+  border-left: 2px solid #c40018;
+}
+
+.reviews .caption {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 20px;
+  color: white;
+  font-style: normal;
+}
+
+.reviews .slider {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.reviews label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #d8d8d8;
+}
+
+.reviews label:not(:last-of-type) {
+  margin-right: 7%;
+}
+
+.review {
+  display: none;
+}
+
+.slider label:hover {
+  background-color: #c40018;
+}
+
+#radio-1:checked ~ #slide-1,
+#radio-2:checked ~ #slide-2,
+#radio-3:checked ~ #slide-3,
+#radio-4:checked ~ #slide-1, 
+#radio-5:checked ~ #slide-2 {
+ display: block;
+}
+
+#radio-1:checked ~ .slider label[for="radio-1"],
+#radio-2:checked ~ .slider label[for="radio-2"],
+#radio-3:checked ~ .slider label[for="radio-3"],
+#radio-4:checked ~ .slider label[for="radio-4"], 
+#radio-5:checked ~ .slider label[for="radio-5"] {
+  background-color: #c40018;
+}
+
+.about-me .collage {
+  width: 100%;
+}
+
+/*Блог*/
+
+.article {
+  width: 95%;
+  max-width: 540px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 25px 10px 20px;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.article:first-of-type {
+  margin-top: 60px;
+}
+
+.article .h1 {
+  text-decoration: none;
+  color: #1a1e23;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+.article img {
+  float: right;
+  top: 25px;
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-color: #f4f4f4;
+}
+
+.article p {
+  color: #1a1e23;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  margin-top: 10px;
+}
+
+.article .date {
+  color: #989898;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 13px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.article .connecting {
+  position: relative;      /* add by koloskova */
+  text-decoration: none;
+  color: #989898;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 13px;
+  float: right;
+  margin-top: 20px;
+  z-index: 5;
+}
+
+.article .connect {         /* add by koloskova */
+  float: right;  
+}
+
+.article .connect a{        /* add by koloskova */
+  display: inline-block;
+  vertical-align: top;
+}
+
+.article .connecting,
+.article .connect-list {       /* add by koloskova */
+  display: none;
+}
+
+.pagination {
+  width: 90%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.pagination a {
+  display: inline-block;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  border-radius: 50%;
+  color: #1a1e23;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-right: 10px;
+}
+
+.pagination .active {
+  background-color: #d8d8d8;
+}
+
+.pagination a:hover {
+  background-color: #d8d8d8;
+}
+
+/*Блог внутренняя*/
+
+.in-blog .container {
+  padding: 0 10%;
+}
+
+.in-blog .back {
+  color: #969696;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 15px;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 40px;
+}
+
+.in-blog .back-all {
+  display: none;
+}
+
+.in-blog .back img {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+.in-blog .hash {
+  float: right;
+  margin-top: 40px;
+  color: #969696;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 15px;
+  text-decoration: none;
+}
+
+.in-blog span {
+  color: #373737;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  display: block;
+  max-width: 530px;
+  margin: 0 auto;
+  margin-top: 45px;  
+}
+
+.in-blog p {
+  color: #373737;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  display: block;
+  max-width: 530px;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+.in-blog p:first-of-type {
+  margin-top: 25px;
+}
+
+.in-blog .dog {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.in-blog .line {
+  height: 60px;
+  border-bottom: 4px solid #d8d8d8;
+}
+
+.in-blog .connect {
+  float: right;  
+  margin-top: 30px;
+}
+
+.in-blog .connect a{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.in-blog .connect a:not(:last-of-type) {
+  margin-right: 25px;
+}
+
+.connect-list a:hover,
+.in-blog .back-all:hover,
+.in-blog .back:hover,
+.in-blog .hash:hover {
+  color: #000000;    
+} 
+
+.in-blog .connect-name,
+.in-blog .connect-list {
+  display: none;
+}
+
+.in-blog .back.end {
+  margin-bottom: 37px;
+}
+
+
+/*Общее для всех проектов + Макслевел*/
+
+
+.projects .black {
+  background-color: #1a1e23;
+}
+
+.projects .white,
+.in-blog .white {
+  background-color: white;
+}
+
+.projects .grey {
+  background-color: #f2f2f2;
+}
+
+.projects .h1 {
+  display: block;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  color: #1b1e23;
+  margin-top: 15px;
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.projects .text-1 {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #1b1e23;
+  margin-top: 25px;
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.projects .h2 {
+  display: block;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #1b1e23;
+  margin-top: 50px;
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.projects .text-2 {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #1b1e23;
+  margin-top: 15px;
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.projects .h3 {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  color: #1b1e23;
+  margin-top: 35px;
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.projects .text-3 {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #1b1e23;
+  margin-top: 8px;
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.projects .h4 {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #1b1e23;
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.projects .block {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.projects .about-max,
+.projects .about-haus {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about-max .h1,
+.about-haus .h1 {  
+  color: #f4f6f7;
+  margin-top: 0;
+}
+
+.about-max .text-1,
+.about-haus .text-1{
+  color: #f4f6f7;
+  max-width: 540px;
+  margin: 0 auto;
+  margin-top: 70px;  
+}
+
+.about-max .quote,
+.about-haus .quote {
+  color: #4d5a6a;
+  font-family: Georgia;
+  font-size: 10px;
+  font-style: italic;
+  line-height: 11px;
+  max-width: 540px;
+  margin: 0 auto;
+  margin-top: 70px; 
+}
+
+.projects .image {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.projects .imac {
+  width: 75%;
+  max-width: 540px;
+}
+
+.projects .up-40 {
+  margin-top: 40px;
+}
+
+.projects .up-60 {
+  margin-top: 60px;
+}
+
+.projects .up-80 {
+  margin-top: 80px;
+}
+
+.projects .img{
+  display: block;
+  width: 100%;
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-dog {
+  display: block;
+  text-align: center;
+  color: #c40018;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 19px;
+  margin-top: 20px;
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-dog::after {
+  content: '';
+  display: block;
+  width: 60px;
+  border-top: 1px solid #1a1e23; 
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+}
+
+.about-dog::before {
+  content: '';
+  display: block;
+  width: 60px;
+  border-top: 1px solid #1a1e23; 
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+
+.img-sketch,
+.img-scheme,
+.img-site-max {
+  display: block;
+  width: 90%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grey .pattern.container {
+  padding-bottom: 60px;
+}
+
+.white .pattern.container {
+  padding-top: 60px;
+}
+
+.projects .img-2 {
+  display: block;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.grey .test.container {
+  padding-bottom: 60px;
+}
+
+.white .test.container {
+  padding-top: 10px;
+}
+
+.unit {
+  display: block;
+  width: 100%;
+  max-width: 540px;
+  background-color: #1a1e23;
+  padding: 10% 8%;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.unit span {
+  color: #ff2c2c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+/*Для блоков в хаусдорфе*/
+
+.haus .unit span {
+  color: #f2f2f2;
+  font-weight: 600;
+}
+
+/**/
+
+.unit p {
+  color: #cecece;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-top: 15px;
+}
+
+.grey .conclusion.container {
+  padding-bottom: 60px;
+}
+
+.black .conclusion.container {
+  padding-top: 25px;
+}
+
+.black .conclusion .h3,
+.black .conclusion .text-3{
+  color: #cecece;
+}
+
+/*Хаусдорф*/
+
+
+.grey .scenario.container .h2:first-of-type{
+  margin-top: 0;
+}
+
+.white .scenario-haus .text-1:first-of-type {
+  margin-top: 0;
+}
+
+.scenario-haus .steps {
+  display: block;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.scenario-haus .steps:not(.first-step) {
+  margin-top: 100px;
+}
+
+.scenario-haus .img {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 540px;
+}
+
+.projects .img-look {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.projects .scenario-haus .img-s {
+  display: block;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 300px;
+}
+
+.projects .up-15 {
+  margin-top: 15px;
+}
+
+.scenario-haus .text-3 {
+  margin-top: 25px;
+}
+
+.reviews.haus {
+  background-color: #f2f2f2;
+  padding-top: 60px;
+  padding-bottom: 0;
+}
+
+.reviews.haus p,
+.reviews.haus .caption {
+  color: #1a1e23;  
+}
+
+.reviews.haus .review {
+  display: block;
+}
+
+.about-dog.haus::before {
+  margin-top: 40px;
+}
+
+/*Селвис*/
+
+.results.steps-selvis .h3 {
+  margin-top: 0;
+}
+
+.projects .display-768 {
+  display: none;
+
+}
+
+.projects .display-320 {
+  display: block;
+}
+
+.img-menu {
+  display: none;
+}
+
+.reviews.selvis {
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 0;
+}
+
+.reviews.selvis p,
+.reviews.selvis .caption {
+  color: #1a1e23;  
+}
+
+.reviews.selvis .review {
+  display: block;
+}
+
+.white .selvis.test.container {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.iteration {
+  padding-bottom: 60px;
+}
+
+.iteration .iterate {
+  display: block;
+  height: 30px;
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 7px;
+  background-color: #9a9a9a;
+  border-radius: 2px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 540;
+  line-height: 24px;
+  margin-top: 60px;
+}
+
+.iteration .task:first-of-type .iterate{
+  margin-top: 0px;
+}
+
+.iteration .h3 {
+  margin-top: 25px;
+}
+
+.iteration .h3,
+.iteration .text-3 {
+  color: #cecece;
+}
+
+@media screen and (min-width: 760px) {
+
+
+  .container {
+    width: 100%;
+    padding: 0 5%;
+  }
+
+
+  /*Хедер*/
+
+
+  header .definition {
+    width: 432px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-top: 40px;
+  }
+
+  header .main-menu {
+    margin-top: 75px;
+    width: 432px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .main-menu li {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+  }  
+
+  .main-menu li:not(:last-of-type) {
+    margin-right: 110px;
+  }
+
+  /*Главная*/
+
+  .group {
+    padding: 50px 98px;
+    width: 90%;
+    min-height: 540px;
+    margin: 50px auto 0;
+    max-width: 800px;
+  }
+
+  .selvis-m {
+    margin-top: 87px;
+  }
+
+  .group .logo {
+    width: 180px;
+    max-height: 180px;
+  }
+
+  .group .h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 62px;
+    margin-top: 40px;
+  }
+
+  .group span {
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-top: 60px;
+  }
+
+  /*Футер*/
+
+  .mail {
+    color: #373737;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-top: 128px;
+  }
+
+  .copyright {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+  }
+
+  /*Обо мне*/
+
+  .about-me {
+    padding-bottom: 20px;
+  }
+
+  .about-me .photo {
+    height: 500px;
+    margin-top: 34px;
+  }
+
+  .text-about {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    width: 70%;
+    max-width: 800px;
+  }
+
+  .icons {
+    margin-top: 125px;
+    margin-bottom: 120px;
+    width: 140%;
+    margin-left: -20%;
+  }
+
+  .text-about .balsamiq {
+    height: 78px;
+    width: 78px;
+  }
+
+  .text-about .axure {
+    height: 72px;
+    width: 72px;
+  }
+
+  .text-about .sketch {
+    height: 82px;
+    width: 82px;
+  }
+
+  .text-about .pixate {
+    height: 80px;
+    width: 80px;
+  }
+
+  .text-about img:not(:last-of-type) {
+    margin-right: 10%;
+  }
+
+  .reviews {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .review {
+    width: 65%;
+    max-width: 650px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    border-left: 4px solid #c40018;
+  }
+
+  .reviews p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .reviews p:not(:first-of-type) {
+    margin-top: 35px;
+  }
+
+  .reviews .caption {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 30px;
+  }
+
+  .reviews .slider {
+    margin-top: 60px;
+  }
+
+  .reviews label:not(:last-of-type) {
+    margin-right: 5%;
+  }
+
+  .reviews label {
+    width: 30px;
+    height: 30px;
+  }
+
+  /*Блог*/
+
+  .article {
+    max-width: 800px;
+    padding: 45px 40px 35px;
+    margin-top: 30px;
+  }
+
+  .article:first-of-type {
+    margin-top: 85px;
+  }
+
+  .article div {
+    height: 160px;
+  }
+
+  .article .h1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+  }
+
+  .article p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 15px;
+  }
+
+  .article img {
+    width: 160px;
+    height: 160px;
+    top: 45px;
+    margin-left: 50px;
+  }
+
+  .article .date {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-top: 30px;
+  }
+
+  .article .connecting {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-top: 30px;
+  }
+  
+  .article .connect {        /* add by koloskova */
+    margin-top: 40px;
+  }
+
+  .article .connect a:not(:last-of-type) {    /* add by koloskova */
+    margin-right: 40px;
+  }
+
+  .article .connect img {   /* add by koloskova */
+    width: 40px;
+    height: 40px;
+  }
+
+  .pagination {
+    margin: 100px auto;
+  }
+
+  .pagination a {
+    width: 60px;
+    height: 60px;
+    padding-top: 14px;
+    color: #464646;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-right: 10px;
+  }
+
+  /*Блог внутренняя*/
+
+  .in-blog .back-all {
+    color: #969696;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 60px;
+  }
+
+  .in-blog .back {
+    display: none;
+  }
+
+  .in-blog .back-all img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    width: 10px;
+    height: 16px;
+  }
+
+  .in-blog .hash {
+    margin-top: 60px;
+    font-size: 18px;
+    line-height: 19px;
+  }
+
+  .in-blog span {
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 70px;  
+    max-width: 800px;
+    width: 70%;
+  }
+
+  .in-blog p {
+    font-size: 16px;
+    line-height: 16px;
+    max-width: 800px;
+    width: 70%;
+  }
+
+  .in-blog p:first-of-type {
+    margin-top: 40px;
+  }
+
+  .in-blog .dog {
+    width: 70%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .in-blog .line {
+    height: 80px;
+  }
+
+  .in-blog .connect {
+    margin-top: 40px;
+  }
+
+  .in-blog .connect a:not(:last-of-type) {
+    margin-right: 40px;
+  }
+
+  .in-blog .connect img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .in-blog .back-all:last-of-type {
+    margin-bottom: 40px;
+  }
+
+
+
+
+
+
+/*Общее для всех проектов + Макслевел*/  
+
+  .projects .h1 {
+    font-size: 46px;
+    line-height: 56px;
+    margin-top: 25px;
+    width: 80%;
+    max-width: 800px;
+    margin-left: 15%;
+    margin-right: 0;
+  }
+
+  .projects .text-1 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 40px;
+    width: 70%;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+ 
+  .projects .h2 {
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 80px;
+    width: 80%;
+    max-width: 800px;
+    margin-right: 0;
+    margin-left: 15%;
+  }
+
+  .projects .text-2 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 15px;
+    width: 80%;
+    max-width: 800px;
+    margin-right: 0;
+    margin-left: 15%;
+  }
+
+  .projects .h3 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 40px;
+    width: 80%;
+    max-width: 800px;
+    margin-right: 0;
+    margin-left: 15%;
+  }
+
+  .projects .text-3 {
+    font-size: 16px;
+    line-height: 19px;
+    width: 80%;
+    max-width: 800px;
+    margin-right: 0;
+    margin-left: 15%;
+  } 
+
+  .projects .h4 {
+    font-size: 20px;
+    line-height: 24px;
+    width: 70%;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .projects .block {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+
+  .projects .about-max.container,
+  .projects .about-haus.container {
+    margin-top: 38px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .about-max .h1,
+  .about-haus .h1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-max .text-1,
+  .about-haus .text-1 {
+    margin-top: 80px;
+  }
+
+  .about-max .quote,
+  .about-haus .quote {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 80px;
+    width: 70%;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .projects .image {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    text-align: center;
+  }
+
+  .projects .imac {
+    width: 70%;
+    max-width: 800px;
+  }
+
+  .projects .up-40 {
+    margin-top: 60px;
+  }
+
+  .projects .up-60 {
+    margin-top: 80px;
+  }
+
+  .projects .up-80 {
+    margin-top: 100px;
+  }
+
+  .projects .img-s{
+    display: block;
+    width: 70%;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .projects .img-m {
+    display: block;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;    
+    max-width: 1000px;
+  }
+
+  .projects .img-l {
+    display: block;
+    width: 110%;
+    margin-left: -5%;
+    max-width: 1000px;
+  }
+
+
+  .about-dog {
+    font-size: 22px;
+    line-height: 27px;
+    width: 80%;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto
+  }
+
+  .about-dog::after {
+    content: '';
+    display: block;
+    width: 100px;
+    border-top: 2px solid #1a1e23; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+
+  .about-dog::before {
+    content: '';
+    display: block;
+    width: 100px;
+    border-top: 2px solid #1a1e23; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  .process {
+    text-align: center;
+    width: 110%;
+    margin-left: -5%
+  }
+
+  .img-sketch,
+  .img-scheme,
+  .img-site-max {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    max-width: 300px;
+    height: 425px;
+  }
+
+  .img-sketch,
+  .img-scheme {
+    margin-right: 8%;
+  }
+
+  .grey .pattern.container {
+    padding-bottom: 120px;
+  }
+
+  .white .pattern.container {
+    padding-top: 120px;
+  }
+ 
+
+  .grey .test.container {
+    padding-bottom: 100px;
+  }
+
+  .white .test.container {
+    padding-top: 20px;
+  }
+
+  .units {
+    display: block;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .unit {
+    display: inline-block;
+    vertical-align: top;
+    width: 31%;
+    padding: 3% 3%;
+    height: 170px;
+  }
+
+  .unit:not(:nth-of-type(3n)) {
+    margin-right: 2.5%;
+  }
+
+  .unit span,
+  .unit p {
+    display: inline-block;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .unit p {
+    margin-top: 10px;
+  }
+
+  .grey .conclusion.container {
+    padding-bottom: 100px;
+  }
+
+  .black .conclusion.container {
+    padding-top: 60px;
+  }
+
+
+  /*Хаусдорф*/
+
+  .units.haus {
+    text-align: center;
+  }
+
+  .units.haus .unit {
+    width: 47%;
+    height: 220px;
+    padding: 5% 4%;
+    text-align: left;
+  }
+
+  .units.haus .unit:nth-of-type(2n-1) {
+    margin-right: 5%;
+  }
+
+  .units.haus .unit:nth-of-type(2n) {
+    margin-right: 0;
+  }
+
+  .units.haus .unit span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15px;
+  }
+
+  .units.haus .unit p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 15px;
+  }
+
+  .grey .scenario.container .h2:first-of-type{
+    margin-top: 0;
+  }
+
+  .white .scenario-haus .text-1:first-of-type {
+    margin-top: 0;
+  }
+
+  .scenario-haus .steps {
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 47px;
+    width: 70%;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .scenario-haus .steps:not(.first-step) {
+    margin-top: 120px;
+  }
+
+  .scenario-haus .img {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+  }
+
+  .projects .up-15 {
+    margin-top: 25px;
+  }
+
+  .projects .scenario-haus .text-3 {
+    margin-top: 40px;
+  }
+
+  .reviews.haus {
+    background-color: #f2f2f2;
+    padding-top: 60px;
+    padding-bottom: 0;
+  }
+
+  .reviews.haus p,
+  .reviews.haus .caption {
+    color: #1a1e23;  
+  }
+
+  .reviews.haus .review {
+    display: block;
+  }
+
+  .about-dog.haus::before {
+    margin-top: 50px;
+  }
+
+  .looking {
+    text-align: center;
+  }
+
+  .projects .look,
+  .projects .img-s.img-look {
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    text-align: left;
+  }
+
+  .img-s.img-look {
+    margin-right: 5%;
+    max-width: 250px;
+  }
+
+  .projects .img.img-step-3,
+  .projects .img.img-step-3-right {
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    margin-top: 50px;
+  }
+
+  .scenario-haus .img-step-3-right {
+    margin-right: 5%;
+  }
+
+
+  /*Селвис*/
+  
+
+  .projects .steps-selvis .img-s.step-one {
+    width: 50%;
+    max-width: 800px;
+    margin-left: 14%;
+    margin-right: 0;
+  }
+
+  .results.steps-selvis.up-60 {
+    margin-top: 100px;
+  }
+
+  .results.steps-selvis .h3 {
+    margin-top: 15px;
+  }
+
+  .steps-selvis .result.up-40 {
+    margin-top: 100px;
+  }
+
+  .projects .display-320 {
+    display: none;
+  }
+
+  .projects .display-768 {
+    display: block;
+  }
+
+  .img-menu {
+    display: inline-block;
+    vertical-align: top;
+    height: 620px;
+    width: 59%;
+  }
+
+  .img-menu:first-of-type {
+    width: 31%;
+    margin-right: 9%;
+  }
+
+  .reviews.selvis {
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+
+  .white .selvis.test.container {
+    padding-top: 140px;
+    padding-bottom: 100px;
+  }
+
+  .iteration.block {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+
+  .iteration .iterate {
+    height: 40px;
+    width: 40%;
+    max-width: 300px;
+    margin-right: 0;
+    margin-left: 14%;
+    padding-top: 9px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-top: 80px;
+  }
+
+  .iteration .h3 {
+    margin-top: 30px;
+  }
+
+  .units.selvis .unit span {
+    color: #ff2c2c;
+  }
+
+}
+
+@media screen and (min-width: 1101px) {
+
+  .container {
+    width: 1000px;
+    padding: 0;
+    margin: auto;
+  }
+
+  /*Хедер*/
+  
+  header {
+    height: 200px;
+    padding-top: 40px;
+  }
+
+  header .logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    margin-top: -5px;
+    width: 100px;
+    height: 100px;
+  }
+   
+  header .definition {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    min-width: 500px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-left: 50px;
+  }
+
+  header .main-menu {
+    float: right;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    margin-right: -20px;
+    width: 300px;
+  }
+
+  .main-menu li {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+  }
+
+  .main-menu li:not(:last-of-type) {
+    margin-right: 40px;
+  }
+
+  /*Главная*/
+
+  .group:first-of-type {
+    margin-top: 0;
+  }
+
+  .group {
+    padding: 0;
+    margin: 0;
+    padding: 20px 50px;
+    padding-right: 0;
+    max-height: 220px;
+    min-height: 220px;
+    max-width: 1000px;
+    min-width: 1000px;
+    margin-top: 50px;
+    text-align: left;
+  }
+
+  .group .logo {
+    width: 180px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+  }
+  
+  .group .description {
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    min-width: 500px;
+    margin-left: 50px;
+  }
+
+  .group .h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+  
+  .group span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 50px;
+  }
+
+  /*Футер*/
+
+  .mail {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 92px;
+    margin-bottom: 92px;
+  }
+
+  .copyright {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    margin-top: 91px;
+  }
+
+  /*Обо мне*/
+
+  .about-me .photo {
+    margin-top: 0;
+    height: 700px;
+  }
+
+  .text-about {
+    width: 600px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+
+  .icons {
+    width: 820px;
+    margin-left: -110px;
+  }
+
+  .text-about p:not(:first-of-type) {
+    margin-top: 40px;
+  }
+
+  .text-about .balsamiq {
+    height: 115px;
+    width: 115px;
+  }
+
+  .text-about .axure {
+    height: 102px;
+    width: 102px;
+  }
+
+  .text-about .sketch {
+    height: 112px;
+    width: 112px;
+  }
+
+  .text-about .pixate {
+    height: 116px;
+    width: 116px;
+  }
+
+  .text-about img:not(:last-of-type) {
+    margin-right: 110px;
+  }
+
+  .review { 
+    width: 600px;
+  }
+
+  .reviews p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .reviews .caption {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 40px;
+  }
+
+  .reviews label:not(:last-of-type) {
+    margin-right: 30px;
+  }
+
+  /*Блог*/
+
+  .blog {
+    position: relative;
+  }
+
+  .article {
+    width: 1000px;
+    max-width: 1000px;
+    padding: 40px 40px 20px;
+  }
+
+  .article:first-of-type {
+    margin-top: 0px;
+  }
+
+  .article div {
+    height: 160px;
+  }
+
+  .article .h1 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .article p {
+    margin-top: 25px;
+  }
+
+  .article img {
+    top: 40px;
+    margin-left: 60px;
+  }
+
+  .article .date {
+    margin-top: 20px;
+  }
+
+  .article .connecting {
+    margin-top: 20px;
+	display: block;      /* add by koloskova */
+  }
+
+  .blog .button {
+    display: block;
+    width: 245px;
+    height: 40px;
+    background-color: #1a1e23;
+    border-radius: 2px; 
+    border: none;
+    color: #ececec;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    text-decoration: none;
+    padding-top: 12px;
+  }
+  
+    .article .connect-list {      /* add by koloskova */
+    position: absolute;
+    width: 205px;
+    top: -10px;
+    right: -40px;
+    list-style: none;
+    background-color: white;
+    padding-top: 35px;
+    border: 1px solid #d8d8d8;
+    z-index: -1;
+    display: none;
+  }
+  
+  .article .connecting:hover .connect-list {       /* add by koloskova */
+    display: block;
+  }
+  
+  .article .connect {       /* add by koloskova */
+    display: none;
+  }
+
+  .pagination {
+    width: 300px;
+    margin: 0;    
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .pagination a {
+    width: 50px;
+    height: 50px;
+    padding-top: 13px;
+    color: #1a1e23;
+    font-size: 28px;
+    line-height: 28px;
+    margin-right: 0;
+  }
+
+  /*Блог внутренняя*/
+
+  .in-blog .container {
+    padding: 0;
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .in-blog .back-all {
+    margin-top: 45px;
+  }
+
+  .in-blog .hash {
+    margin-top: 45px;
+  }
+
+  .in-blog span {
+    font-size: 28px;
+    line-height: 28px;
+    margin-top: 65px;  
+    max-width: 600px;
+    width: 600px;
+  }
+
+  .in-blog p {
+    font-size: 18px;
+    line-height: 19px;
+    max-width: 600px;
+    width: 600px;
+    margin-top: 40px;
+  }
+
+  .in-blog p:first-of-type {
+    margin-top: 50px;
+  }
+
+  .in-blog .dog {
+    width: 600;
+    max-width: 600px;
+    margin-top: 60px;
+  }
+
+  .in-blog .line {
+    height: 100px;
+  }
+
+  .in-blog .connect {
+    display: none;
+  }
+
+  .in-blog .connect-name {
+    color: #969696;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    float: right;
+    position: relative;
+    display: block;
+    z-index: 5;
+    margin: 0;
+    margin-top: 40px;
+    width: 205px;
+    max-width: 205px;
+  }  
+
+  .in-blog .connect-list {
+    position: absolute;
+    width: 205px;
+    top: -10px;
+    right: 0;
+    list-style: none;
+    background-color: white;
+    padding-top: 35px;
+    border: 1px solid #d8d8d8;
+    z-index: -1;
+    display: none;
+  }
+
+  .connect-list a {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    width: 192px;
+    margin: 0 auto;
+    color: #969696;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15px;
+    padding: 10px 20px;
+  }
+
+  .connect-list li:first-of-type a{
+    padding-top: 20px;
+    border-top: 1px solid #d8d8d8;
+  }
+
+  .in-blog .connect-name:hover .connect-list {
+    display: block;
+  }
+
+  .in-blog .back-all:last-of-type {
+    margin-bottom: 50px;
+  }
+
+
+
+  /*Общее для всех проектов + Макслевел*/  
+
+  .projects .h1 {
+    font-size: 52px;
+    line-height: 62px;
+    margin-top: 30px;
+    width: 800px;
+    max-width: 800px;
+    margin-left: 200px;
+  }
+
+  .projects .text-1 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 50px;
+    width: 600px;
+    max-width: 600px;
+  }
+ 
+  .projects .h2 {
+    font-size: 36px;
+    line-height: 43px;
+    margin: 0;
+  }
+
+  .projects .text-2 {
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .projects .h3 {
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0;
+  }
+
+  .projects .text-3 {
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 15px;
+  }
+
+  .projects .h4 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 200px;
+  }
+
+  .projects .block {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+  
+  .projects .about-max.container,
+  .projects .about-haus.container {
+    margin-top: 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .projects .about-max .h1,
+  .projects .about-haus .h1 {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .about-max .text-1,
+  .about-haus .text-1 {
+    margin-top: 90px;
+  }
+
+  .about-max .quote,
+  .about-haus .quote {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 90px;
+    width: 600;
+    max-width: 600px;
+  }
+
+  .projects .image {
+    padding-top: 180px;
+    padding-bottom: 180px;
+  }
+
+  .projects .imac {
+    width: 600px;
+    max-width: 600px;
+  }
+
+  .projects .up-40 {
+    margin-top: 100px;
+  }
+
+  .projects .up-60 {
+    margin-top: 120px;
+  }
+
+  .projects .up-80 {
+    margin-top: 150px;
+  }
+
+  .projects .img-s{
+    width: 640px;
+    max-width: 640px;
+  }
+
+  .projects .img-m {
+    width: 1000px;
+  }
+
+  .projects .img-l {
+    width: 1000px; 
+    margin-right: auto;
+    margin-left: auto;   
+  }
+
+  .about-dog {
+    font-size: 26px;
+    line-height: 32px;
+    max-width: 720px;
+    width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .about-dog::after {
+    content: '';
+    display: block;
+    width: 200px;
+    border-top: 2px solid #1a1e23; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+  }
+
+  .about-dog::before {
+    content: '';
+    display: block;
+    width: 200px;
+    border-top: 2px solid #1a1e23; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px;
+    margin-bottom: 30px;
+  }
+
+  .process {
+    width: 1000px;
+    margin-left: 0;
+  }
+
+  .img-sketch,
+  .img-scheme,
+  .img-site-max {
+    width: 300px;
+    max-width: 293px;
+    height: 567px;
+  }
+
+  .img-sketch,
+  .img-scheme {
+    margin-right: 50px;
+  }
+
+  .grey .pattern.container {
+    padding-bottom: 120px;
+  }
+
+  .white .pattern.container {
+    padding-top: 100px;
+  } 
+
+  .grey .test.container {
+    padding-bottom: 120px;
+  }
+
+  .white .test.container {
+    padding-top: 1px;
+  }
+
+  .units {
+    width: 1000px;
+  }
+
+  .unit {
+    width: 319px;
+    height: 220px;
+    padding: 40px 30px;
+  }
+
+  .unit:not(:nth-of-type(3n)) {
+    margin-right: 18px;
+  }
+
+  .unit span,
+  .unit p {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .unit p {
+    margin-top: 15px;
+  }
+
+  .grey .conclusion.container {
+    padding-bottom: 150px;
+  }
+
+  .black .conclusion.container {
+    padding-top: 150px;
+  }
+
+  .black .conclusion.container .tasks {
+    margin-top: 0;
+  }
+
+  .tasks,
+  .results {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+  }
+
+  .task {
+    display: inline-block;
+    vertical-align: top;
+    width: 268px;
+  }
+
+  .task:not(:nth-of-type(3n)) {
+    margin-right: 90px;
+  }
+
+  .task .h3,
+  .results .h2 {
+    margin-top: 0;
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .task .text-3 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 260px;
+  }
+
+  .tasks .row {
+    margin-top: 80px;
+  }
+
+  .result .text-2 {
+    width: 100%;
+  }
+
+  .result {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 460px;
+  }
+
+  .result:nth-of-type(2n-1) {
+    margin-right: 76px;
+  }
+
+  .results .row {
+    margin-top: 110px;
+  }
+
+
+  /*Хаусдорф*/
+
+  .units.haus {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+  }
+
+  .units.haus .unit {
+    width: 319px;
+    height: 220px;
+    padding: 40px 30px;
+    display: inline-block;
+    vertical-align: top;
+
+  }
+
+  .units.haus .unit:not(:nth-of-type(3n)) {
+    margin-right: 18px;
+  }
+
+  .units.haus .unit:nth-of-type(3n) {
+    margin-right: 0;
+  }
+
+  .units.haus .unit span {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15px;
+  }
+
+  .units.haus .unit p {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .scenario.haus .result {
+    position: relative;
+    padding-bottom: 780px;
+  }
+
+  .scenario.haus .results .img {
+    width: 460px;
+    position: absolute;
+    top: 635px;
+    margin: 0;
+  }
+
+  .grey .scenario.container .h2:first-of-type{
+    margin-top: 0;
+  }
+
+  .grey .scenario.container .h2,
+  .grey .scenario.container .text-2 {
+    margin-left: 200px;
+    width: 600px;
+  }
+
+  .white .scenario-haus .text-1:first-of-type {
+    margin-top: 0;
+  }
+
+  .scenario-haus .steps {
+    font-size: 52px;
+    line-height: 52px;
+    width: 125px;
+    max-width: 140px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+  }
+
+  .scenario-haus .steps:not(.first-step) {
+    margin-top: 0px;
+  }
+
+  .scenario-haus .up-15.img {
+    width: 540px;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 540px;
+    margin-top: 0;
+    margin-right: 38px;
+  }
+
+  .projects .scenario-haus .row .text-3{
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+    margin-top: 0;
+  }
+
+  .scenario-haus .row:not(:first-of-type) {
+    margin-top: 150px;
+  }
+
+  .scenario-haus .row-2 {
+    margin-top: 50px;
+  }
+
+  .projects .scenario-haus .row-2 .img-s {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    margin-left: 157px;
+    margin-right: 39px;
+    width: 540px;
+    max-width: 540px;
+  }
+
+  .scenario-haus .row .img-m{
+    width: 540px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 38px;
+  }
+
+  .scenario-haus .row .img-step-3,
+  .scenario-haus .row .img-step-3-right {
+    width: 260px;
+    margin-top: 0;
+  }
+
+  .scenario-haus .row .img-step-3-right {
+    margin-right: 15px;
+  }
+
+  .projects .scenario-haus .text-3 {
+    margin-top: 40px;
+  }
+
+  .reviews.haus {
+    background-color: #f2f2f2;
+    padding-top: 110px;
+    padding-bottom: 0;
+  }
+
+  .reviews.haus p,
+  .reviews.haus .caption {
+    color: #1a1e23;  
+  }
+
+  .reviews.haus .review {
+    display: block;
+  }
+
+  .about-dog.haus::before {
+    margin-top: 100px;  /*NEW*/
+  }
+
+  .looking {
+    text-align: center;
+  }
+
+  .projects .img-s.img-look {
+    display: none;
+  }
+
+  .projects .looking .look {
+    width: 260px;
+    margin-top: 40px;
+  }
+
+  .white .scenario-2.haus .text-1:first-of-type {
+    margin-top: 0;
+  }
+
+  .looking .look:not(:nth-of-type(3n)) {
+    margin-right: 105px
+  }
+
+  .looking .different.look:first-of-type {
+    margin-left: 120px
+  }
+
+  .projects .img-m.different {
+    width: 630px;
+  }
+
+  .looking .look .text-3 {
+    margin: 0;
+    margin-top: 15px;
+    width: 260px
+  }
+
+  .looking .look .h3 {
+    width: 260px;
+  }
+
+  .double-img .img{
+    display: inline-block;
+    vertical-align: top;
+    width: 460px;
+    margin-top: 150px
+  }
+
+  .double-img .img:first-of-type {
+    margin-right: 76px;
+  }
+
+  .test .step,
+  .test .step-name {
+    width: 155px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 45px;
+  }
+
+  .test .step-name {
+    width: 620px;
+    margin-top: 150px;
+  }
+
+  .version {
+    display: inline-block;
+    vertical-align: top;
+    width: 475px;
+    margin-top: 65px;
+  }
+
+  .version.a {
+    margin-right: 46px;
+  }
+
+  .version .h3 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .version .text-3 {
+    margin: 0;
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .version.a .img-s {
+    width: 435px;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .version.b .img-s {
+    width: 475px;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  /*Селвис*/
+  
+
+  .projects .steps-selvis .img-s.step-one {
+    width: 70%;
+    max-width: 800px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .projects .steps-selvis .img-s {
+    width: 100%;
+  }
+
+  .projects .steps-selvis .step-two {
+    margin-top: -65px;
+  }
+
+  .results.steps-selvis.up-60 {
+    margin-top: 100px;
+  }
+
+  .results.steps-selvis .h3 {
+    margin-top: 15px;
+  }
+
+  .results.steps-selvis .text-3 {
+    width: 460px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .steps-selvis .result.up-40 {
+    margin-top: 0;
+  }
+
+  .img-menu {
+    display: inline-block;
+    vertical-align: top;
+    height: 690px;
+    width: 59%;
+  }
+
+  .img-menu:first-of-type {
+    width: 31%;
+    margin-right: 9%;
+  }
+
+  .white .selvis.test.container {
+    padding-top: 180px;
+    padding-bottom: 120px;
+  }
+
+  .iteration.block {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+
+  .iteration .iterate {
+    height: 40px;
+    width: 260px;
+    max-width: 260px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 9px;
+    margin-top: 0;
+  }
+
+  .iteration .h3 {
+    margin-top: 55px;
+  }
+
+  .iteration .task {
+    position: relative;
+  }
+
+  .iteration .task:not(:last-of-type) .iterate::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #979797;
+    border: 2px solid #979797;
+    width: 120px;
+    height: 2px;
+    top: 17px;
+    right: -105px;
+  }
+
+  .projects .slice {
+    position: relative;    
+  }
+
+  .projects .img-slice-one {
+    width: 540px;
+    margin-left: 0;
+    padding-bottom: 170px;
+  }
+
+  .projects .img-slice-two {
+    width: 540px;
+    position: absolute;
+    left: 230px;
+    top: 120px;
+    margin-top: 0;
+  }
+
+  .projects .img-slice-three {
+    width: 540px;
+    position: absolute;
+    left: 460px;
+    top: 240px;
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (min-width: 1441px) {
+
+  .container {
+    width: 1300px;
+    margin: auto;
+  }
+
+  /*Хедер*/
+  
+  header {
+    height: 220px;
+    padding-top: 50px;
+  }
+
+  header .logo {
+    margin-top: -5px;
+    min-width: 112px;
+    height: 112px;
+  }
+   
+  header .definition {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-left: 100px;
+  }
+
+  header .main-menu {
+    margin-top: 40px;
+    width: 400px;
+  }
+
+  .main-menu li {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .main-menu li:not(:last-of-type) {
+    margin-right: 90px;
+  }
+
+  /*Главная*/
+
+  .group:first-of-type {
+    margin-top: 0;
+  }
+
+  .group {
+    padding: 30px 70px;
+    padding-right: 0;
+    max-height: 260px;
+    min-height: 260px;
+    max-width: 1300px;
+    min-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .group .logo {
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+  }
+  
+  .group .description {
+    margin-left: 100px;
+  }
+
+  .group .h1 {
+    font-size: 46px;
+    line-height: 56px;
+    margin-top: 40px;
+  }
+  
+  .group span {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  /*Футер*/
+
+  .mail {
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .copyright {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 102px;
+  }
+
+  /*Обо мне*/
+
+  .about-me .photo {
+    height: 700px;
+  }
+
+  .text-about {
+    font-size: 28px;
+    line-height: 34px;
+    width: 820px;
+    padding-top: 220px;
+    padding-bottom: 220px;
+  }
+
+  .text-about p:not(:first-of-type) {
+    margin-top: 40px;
+  }
+
+  .icons {
+    width: 820px;
+    margin-left: 0;
+  }
+
+  .review { 
+    width: 820px;
+    max-width: 820px;
+  }
+
+  .reviews p {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .reviews .caption {
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 50px;
+  }
+
+    /*Блог*/
+
+  .article {
+    width: 1300px;
+    max-width: 1300px;
+    padding: 45px 50px 25px;
+  }
+
+  .article div {
+    height: 190px;
+  }
+
+  .article .h1 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .article p {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 30px;
+  }
+
+  .article img {
+    top: 45px;
+    margin-left: 40px;
+    height: 190px;
+    width: 190px;
+  }
+
+  .article .date {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+  }
+
+  .article .connecting {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+  }
+  
+  .article .connect {
+    display: none;
+  }
+
+  .blog button {
+    margin-top: 70px;
+  }
+
+  /*Блог внутренняя*/
+
+  .in-blog .container {
+    width: 1300px;
+  }
+
+  .in-blog .back-all {
+    margin-top:60;
+  }
+
+  .in-blog .hash {
+    margin-top: 60px;
+  }
+
+  .in-blog span {
+    font-size: 32px;
+    line-height: 32px;
+    margin-top: 80px;  
+    max-width: 820px;
+    width: 820px;
+  }
+
+  .in-blog p {
+    font-size: 20px;
+    line-height: 20px;
+    max-width: 820px;
+    width: 820px;
+  }
+
+  .in-blog p:first-of-type {
+    margin-top: 60px;
+  }
+
+  .in-blog .dog {
+    width: 820;
+    max-width: 820px;
+    margin-top: 80px;
+  }
+
+  .in-blog .line {
+    height: 120px;
+  }
+
+  .in-blog .connect {
+    display: none;
+  }
+
+  .in-blog .back-all:last-of-type {
+    margin-bottom: 60px;
+  }
+
+    /*Общее для всех проектов + Макслевел*/  
+
+  .projects .h1 {
+    font-size: 58px;
+    line-height: 71px;
+    margin-top: 40px;
+    width: 820px;
+    max-width: 820px;
+    margin-left: 240px;
+  }
+
+  .projects .text-1 {
+    font-size: 28px;
+    line-height: 34px;
+    margin-top: 60px;
+    width: 820px;
+    max-width: 820px;
+  }
+ 
+  .projects .h2 {
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0;
+  }
+
+  .projects .text-2 {
+    font-size: 28px;
+    line-height: 34px;
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  .projects .h3 {
+    font-size: 26px;
+    line-height: 32px;
+    margin: 0;
+  }
+
+  .projects .text-3 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 20px;
+  }
+
+  .projects .h4 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 240px;
+  }
+
+  .projects .block {
+    padding-top: 220px;
+    padding-bottom: 220px;
+  }
+  
+  .projects .about-max.container,
+  .projects .about-haus.container {
+    margin-top: 0;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .projects .about-max .h1 {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .about-max .text-1,
+  .about-haus .text-1 {
+    margin-top: 110px;
+  }
+
+  .about-max .quote,
+  .about-haus .quote {
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 110px;
+    width: 820;
+    max-width: 820px;
+  }
+
+  .projects .image {
+    padding-top: 220px;
+    padding-bottom: 220px;
+  }
+
+  .projects .imac {
+    width: 955px;
+    max-width: 955px;
+  }
+
+  .projects .up-40 {
+    margin-top: 150px;
+  }
+
+  .projects .up-60 {
+    margin-top: 180px;
+  }
+
+  .projects .up-80 {
+    margin-top: 180px;
+  }
+
+  .projects .img-s{
+    width: 820px;
+    max-width: 820px;
+  }
+
+  .projects .img-m {
+    width: 1300px;
+    max-width: 1300px; /*NEW*/
+  }
+
+  .projects .img-l {
+    width: 1300px; 
+    max-width: 1300px;  /*NEW*/
+  }
+
+  .about-dog {
+    font-size: 32px;
+    line-height: 38px;
+    max-width: 1000px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .about-dog::after {
+    content: '';
+    display: block;
+    width: 200px;
+    border-top: 2px solid #1a1e23; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+  }
+
+  .about-dog::before {
+    content: '';
+    display: block;
+    width: 200px;
+    border-top: 2px solid #1a1e23; 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 180px;
+    margin-bottom: 40px;
+  }
+
+  .process {
+    width: 1300px;
+    margin-left: 0;
+  }
+
+  .img-sketch,
+  .img-scheme,
+  .img-site-max {
+    width: 350px;
+    max-width: 350px;
+    height: 700px;
+  }
+
+  .img-sketch,
+  .img-scheme {
+    margin-right: 120px;
+  }
+
+  .grey .pattern.container {
+    padding-bottom: 180px;
+  }
+
+  .white .pattern.container {
+    padding-top: 150px;
+  } 
+
+  .grey .test.container {
+    padding-bottom: 180px;
+  }
+
+  .white .test.container {
+    padding-top: 1px;
+  }
+
+  .units {
+    width: 1300px;
+  }
+
+  .unit {
+    width: 400px;
+    height: 250px;
+    padding: 50px 50px;
+  }
+
+  .unit:not(:nth-of-type(3n)) {
+    margin-right: 46px;
+  }
+
+  .unit span,
+  .unit p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .unit p {
+    margin-top: 20px;
+  }
+
+  .grey .conclusion.container {
+    padding-bottom: 180px;
+  }
+
+  .black .conclusion.container {
+    padding-top: 180px;
+  }
+
+  .black .conclusion.container .tasks {
+    margin-top: 1px;
+  }
+
+  .tasks,
+  .results {
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+  }
+
+  .task {
+    display: inline-block;
+    vertical-align: top;
+    width: 360px;
+  }
+
+  .task:not(:nth-of-type(3n)) {
+    margin-right: 100px;
+  }
+
+  .task .h3,
+  .results .h2 {
+    margin-top: 0;
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .task .text-3 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 360px;
+  }
+
+  .tasks .row {
+    margin-top: 90px;
+  }
+
+  .result .text-2 {
+    width: 100%;
+  }
+
+  .result {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+  }
+
+  .result:nth-of-type(2n-1) {
+    margin-right: 96px;
+  }
+
+  .results .row {
+    margin-top: 140px;
+  }
+
+
+
+   /*Хаусдорф*/ /*NEW*/
+
+  .units.haus {
+    width: 1300px;
+  }
+
+  .units.haus .unit {
+    width: 400px;
+    height: 250px;
+    padding: 50px 50px;
+
+  }
+
+  .units.haus .unit:not(:nth-of-type(3n)) {
+    margin-right: 46px;
+  }
+
+  .units.haus .unit:nth-of-type(3n) {
+    margin-right: 0;
+  }
+
+  .units.haus .unit span {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .units.haus .unit p {
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 20px;
+  }
+
+  .scenario.haus .result {
+    position: relative;
+    padding-bottom: 1000px;
+  }
+
+  .scenario.haus .results .img {
+    width: 600px;
+    height: 900px;
+    position: absolute;
+    top: 635px;
+    margin: 0;
+  }
+
+  .grey .scenario.container .h2,
+  .grey .scenario.container .text-2 {
+    margin-left: 240px;
+    width: 820px;
+  }
+
+  .white .scenario-haus .text-1:first-of-type {
+    margin-top: 0;
+  }
+
+  .scenario-haus .steps {
+    font-size: 52px;
+    line-height: 52px;
+    width: 125px;
+    max-width: 140px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+  }
+
+  .scenario-haus .steps:not(.first-step) {
+    margin-top: 0px;
+  }
+
+  .scenario-haus .up-15.img {
+    width: 540px;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 540px;
+    margin-top: 0;
+    margin-right: 38px;
+  }
+
+  .projects .scenario-haus .row .text-3{
+    display: inline-block;
+    vertical-align: top;
+    width: 260px;
+    margin-top: 0;
+  }
+
+  .scenario-haus .row:not(:first-of-type) {
+    margin-top: 150px;
+  }
+
+  .scenario-haus .row-2 {
+    margin-top: 50px;
+  }
+
+  .projects .scenario-haus .row-2 .img-s {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    margin-left: 157px;
+    margin-right: 39px;
+    width: 540px;
+    max-width: 540px;
+  }
+
+  .scenario-haus .row .img-m{
+    width: 540px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 38px;
+  }
+
+  .scenario-haus .row .img-step-3,
+  .scenario-haus .row .img-step-3-right {
+    width: 260px;
+    margin-top: 0;
+  }
+
+  .scenario-haus .row .img-step-3-right {
+    margin-right: 15px;
+  }
+
+  .projects .scenario-haus .text-3 {
+    margin-top: 40px;
+  }
+
+  .reviews.haus {
+    padding-top: 180px;
+  }
+
+  .about-dog.haus::before {
+    margin-top: 150px;
+  }
+
+  .projects .looking {
+    width: 1400px;
+    margin-left: -10px;
+  }
+
+  .projects .looking .look {
+    width: 320px;
+    margin-top: 60px;
+  }
+
+  .looking .look:not(:nth-of-type(3n)) {
+    margin-right: 190px;
+  }
+
+  .looking .different.look:first-of-type {
+    margin-left: 120px;
+  }
+
+  .projects .img-m.different {
+    width: 900px;
+  }
+
+  .looking .look .text-3 {
+    margin-top: 20px;
+    width: 320px
+  }
+
+  .looking .look .h3 {
+    width: 320px;
+  }
+
+  .double-img .img{
+    width: 600px;
+    margin-top: 150px
+  }
+
+  .double-img .img:first-of-type {
+    margin-right: 95px;
+  }
+
+  .test .step,
+  .test .step-name {
+    width: 155px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 100px;
+  }
+
+  .test .step-name {
+    width: 620px;
+    margin-top: 180px;
+  }
+
+  .version {
+    width: 600px;
+    margin-top: 80px;
+  }
+
+  .version.a {
+    margin-right: 95px;
+  }
+
+  .version .h3 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .version .text-3 {
+    margin: 0;
+    margin-top: 60px;
+    width: 100%;
+  }
+
+  .version.a .img-s {
+    width: 600px;
+    height: 250px;
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  .version.b .img-s {
+    width: 600px;
+    height: 250px;
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  .haus .test .img-m {
+    width: 900px;
+  }
+
+  /*Селвис*/
+  
+
+  .projects .steps-selvis .img-s.step-one {
+    width: 80%;
+    max-width: 800px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .projects .steps-selvis .img-s {
+    width: 100%;
+  }
+
+  .projects .steps-selvis .step-two {
+    margin-top: -85px;
+  }
+
+  .results.steps-selvis.up-60 {
+    margin-top: 150px;
+  }
+
+  .results.steps-selvis .h3 {
+    margin-top: 15px;
+  }
+
+  .results.steps-selvis .text-3 {
+    width: 600px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .steps-selvis .result.up-40 {
+    margin-top: 0;
+  }
+
+  .img-menu {
+    display: inline-block;
+    vertical-align: top;
+    height: 689px;
+    width: 349px;
+  }
+
+  .img-s {
+    text-align: center;
+  }
+
+  .img-menu:first-of-type {
+    width: 202px;
+    margin-right: 9%;
+  }
+
+  .white .selvis.test.container {
+    padding-top: 180px;
+    padding-bottom: 120px;
+  }
+
+  .iteration.block {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+
+  .iteration .iterate {
+    height: 40px;
+    width: 360px;
+    max-width: 360px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 9px;
+    margin-top: 0;
+  }
+
+  .iteration .h3 {
+    margin-top: 65px;
+  }
+
+  .iteration .task {
+    position: relative;
+  }
+
+  .iteration .task:not(:last-of-type) .iterate::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #979797;
+    border: 2px solid #979797;
+    width: 120px;
+    height: 2px;
+    top: 17px;
+    right: -105px;
+  }
+
+  .projects .slice {
+    position: relative;    
+  }
+
+  .projects .img-slice-one {
+    width: 680px;
+    margin-left: 0;
+    padding-bottom: 170px;
+  }
+
+  .projects .img-slice-two {
+    width: 680px;
+    position: absolute;
+    left: 310px;
+    top: 145px;
+    margin-top: 0;
+  }
+
+  .projects .img-slice-three {
+    width: 680px;
+    position: absolute;
+    left: 620px;
+    top: 290px;
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (min-width: 1781px) {
+
+  body {
+    width: 1800px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+ 
+  header {
+    padding: 0;
+    height: 0;
+    float: left;
+  }
+
+  header .container {
+    width: 340px;
+    text-align: center;
+  }
+
+  header .logo {
+    display: block;
+    margin-top: 120px;
+    width: 112px;
+    max-width: 112px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  header .definition {
+    display: block;
+    text-align: center;
+    width: 240px;
+    max-width: 240px;
+    min-width: 240px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+  }
+
+  header .main-menu {
+    margin-top: 20px;
+  }
+
+  .main-menu li {
+    display: block;
+    margin-top: 80px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+  }
+
+  .main-menu li:not(:last-of-type) {
+    margin-right: 0;
+  }
+  
+   main .container,
+   main.projects .white,
+   main.projects .grey,
+   main.projects .black,   
+   footer .container {
+    width: 1440px;
+    margin-left: 340px;
+   }
+
+   main.projects .white .container,
+   main.projects .grey .container,
+   main.projects .black .container {
+    margin-left: 0;
+   }
+
+}
+ainer {
+    margin-left: 0;
+   }
+
+}

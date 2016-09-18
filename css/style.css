@@ -173,6 +173,7 @@ header a{
 
 .group .h1 {
   text-decoration: none;
+  display: block;
   color: #1a1e23;
   font-size: 36px;
   font-weight: 700;
@@ -216,10 +217,22 @@ header a{
 
 /*Обо мне*/
 
-.about-me .photo {
-  width: 100%;
-  height: 420px;
-  margin-top: 17px;
+.about-me .about {
+  padding: 160px 0; 
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-me .about span {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  max-width: 540px;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  color: white;
 }
 
 .text-about {
@@ -482,10 +495,26 @@ header a{
   display: none;
 }
 
-.in-blog .back img {
+.in-blog a[class^="back"]::before {
+  content: '';
   display: inline-block;
   vertical-align: top;
   margin-right: 5px;
+  margin-top: 1px;
+  width: 8px;
+  height: 8px;
+  border-top: 2px solid #969696;
+  border-left: 2px solid #969696;
+  -moz-transform: rotate(-45deg); /* Для Firefox */
+  -ms-transform: rotate(-45deg); /* Для IE */
+  -webkit-transform: rotate(-45deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(-45deg); /* Для Opera */
+  transform: rotate(-45deg);
+}
+
+.in-blog a[class^="back"]:hover::before {
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
 }
 
 .in-blog .hash {
@@ -1106,7 +1135,7 @@ header a{
     font-size: 24px;
     font-weight: 400;
     line-height: 29px;
-    margin-top: 60px;
+    margin-top: 70px;
   }
 
   /*Футер*/
@@ -1131,9 +1160,22 @@ header a{
     padding-bottom: 20px;
   }
 
-  .about-me .photo {
-    height: 500px;
-    margin-top: 34px;
+  .about-me .about {
+    padding: 145px 0; 
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  .about-me .about span {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    max-width: 700px;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 56px;
+    color: white;
   }
 
   .text-about {
@@ -1313,12 +1355,21 @@ header a{
     display: none;
   }
 
-  .in-blog .back-all img {
+  .in-blog a[class^="back"]::before {
+    content: '';
     display: inline-block;
     vertical-align: top;
-    margin-right: 10px;
+    margin-right: 8px;
+    margin-top: 1px;
     width: 10px;
-    height: 16px;
+    height: 10px;
+    border-top: 2px solid #969696;
+    border-left: 2px solid #969696;
+    -moz-transform: rotate(-45deg); /* Для Firefox */
+    -ms-transform: rotate(-45deg); /* Для IE */
+    -webkit-transform: rotate(-45deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-45deg); /* Для Opera */
+    transform: rotate(-45deg);
   }
 
   .in-blog .hash {
@@ -2034,9 +2085,22 @@ header a{
 
   /*Обо мне*/
 
-  .about-me .photo {
+  .about-me .about {
+    padding: 230px 0; 
+    text-align: center;
     margin-top: 0;
-    height: 700px;
+  }
+
+  .about-me .about span {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 600;
+    max-width: 600px;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 62px;
+    color: white;
   }
 
   .text-about {
@@ -2208,6 +2272,22 @@ header a{
 
   .in-blog .back-all {
     margin-top: 45px;
+  }
+
+  .in-blog a[class^="back"]::before {
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 12px;
+    width: 11px;
+    height: 11px;
+    border-top: 2.5px solid #969696;
+    border-left: 2.5px solid #969696;
+    -moz-transform: rotate(-45deg); /* Для Firefox */
+    -ms-transform: rotate(-45deg); /* Для IE */
+    -webkit-transform: rotate(-45deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-45deg); /* Для Opera */
+    transform: rotate(-45deg);
   }
 
   .in-blog .hash {
@@ -3144,6 +3224,7 @@ header a{
   .group span {
     font-size: 20px;
     line-height: 24px;
+    margin-top: 50px;
   }
 
   /*Футер*/
@@ -3163,8 +3244,22 @@ header a{
 
   /*Обо мне*/
 
-  .about-me .photo {
-    height: 700px;
+  .about-me .about {
+    padding: 250px 0; 
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .about-me .about span {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 870;
+    max-width: 870px;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 71px;
+    color: white;
   }
 
   .text-about {
@@ -4115,5 +4210,17 @@ header a{
   }
 
   /**/
+
+  /*Главная*/
+
+  .main .container {
+    padding-top: 100px;
+  }
+
+  /*Обо мне*/
+
+  .about-me .about {
+    padding: 300px 0; 
+  }
 
 }

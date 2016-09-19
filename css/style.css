@@ -1986,9 +1986,12 @@ header a{
   header .definition {
     display: inline-block;
     vertical-align: middle;
+    text-align: left;
     margin: 0;
     padding: 0;
-    min-width: 500px;
+    min-width: 550px;
+    width: 550px;
+    max-width: 550px;
     font-size: 14px;
     font-weight: 700;
     line-height: 18px;

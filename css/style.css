@@ -133,6 +133,7 @@ body {
   width: 200%;
   max-width: 780px;
   background-color: white;
+  box-shadow: 0 -5px 20px #000;
 }
 
 #second-menu .proj li:not(:last-of-type) {
@@ -154,12 +155,14 @@ body {
   padding-bottom: 15px;
 }
 
-#second-menu .proj a:hover,
 #second-menu .proj a.active,
 #second-menu a.active {
   color: #989898;
+  pointer-events: none; /* делаем ссылку некликабельной */
+  cursor: default;
 }
 
+#second-menu .proj a:hover,
 #second-menu .proj a:active {
   color: #989898;
 }
@@ -1180,6 +1183,7 @@ header a{
   #second-menu .proj {
     width: 100%;
     max-width: 1105px;
+    box-shadow: 0 -5px 20px #000;
   }
 
   #second-menu .proj li:not(:last-of-type) {
@@ -2088,6 +2092,8 @@ header a{
     width: 100%;
     background-color: white;
     text-align: left;
+    box-shadow: 0 -5px 20px #000;
+    margin-top: -2px;
   }
 
   #second-menu .active-menu {
@@ -2117,6 +2123,7 @@ header a{
     width: 650px;
     max-width: 650px;
     background-color: white;
+    box-shadow: none;
   }
 
   #second-menu .proj li:not(:last-of-type) {
@@ -2225,7 +2232,7 @@ header a{
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   /*Футер*/
@@ -2528,7 +2535,7 @@ header a{
   .blog .connect-list {
     position: absolute;
     width: 205px;
-    top: -10px;
+    top: -12px;
     right: 0;
     list-style: none;
     background-color: white;
@@ -2536,6 +2543,7 @@ header a{
     border: 1px solid #d8d8d8;
     z-index: -1;
     display: none;
+    padding-bottom: 10px;
   }
 
   .blog .connect-list {
@@ -3367,7 +3375,8 @@ header a{
 
   header .main-menu {
     margin-top: 40px;
-    width: 400px;
+    width: 380px;
+    margin-right: 0;
   }
 
   .main-menu li {
@@ -3416,7 +3425,7 @@ header a{
   .group span {
     font-size: 20px;
     line-height: 24px;
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   /*Футер*/

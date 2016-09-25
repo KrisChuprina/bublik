@@ -5,7 +5,11 @@
        <title>Maxlevel</title>
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+       <script type='text/javascript' src='js/jquery.1.7.1.min.js'></script>
+       <!-- jQuery Kinectic (1.5) used for touch scrolling -->
+       <script src="js/jquery.kinetic.js" type="text/javascript"></script>
+       <!-- Smooth Div Scroll 1.3 minified-->
+       <script src="js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
     </head>
     <body>
 
@@ -22,6 +26,32 @@
       </header>
 
       <main class="projects">
+
+          <section id="second-menu">
+
+            <ul class="active-menu">
+
+              <li><a href="#">ПРОЕКТЫ</a>
+
+                <ul  class="proj">
+
+                <li><a class="active" href="#about-proj">О ПРОЕКТЕ</a></li>
+                <li><a href="#my-role">МОЯ РОЛЬ</a></li>
+                <li><a href="#users">ПОЛЬЗОВАТЕЛИ</a></li>
+                <li><a href="#scenario">СЦЕНАРИЙ</a></li>
+                <li><a href="#pattern">ПАТТЕРН</a></li>
+                <li><a href="#test">ИССЛЕДОВАНИЕ</a></li>
+                <li><a href="#conclusion">ВЫВОДЫ</a></li>
+
+              </ul></li>
+
+              <li><a href="#">БЛОГ</a></li>
+
+              <li><a href="#">ОБО МНЕ</a></li>
+
+            </ul> 
+
+          </section> 
 
         <div class="black">
       
@@ -47,7 +77,7 @@
 
         <div class="grey">
 
-          <div class="block about-project container"> 
+          <div id="about-proj" class="block about-project container"> 
 
               <span class="h4">О проекте</span>
 
@@ -125,7 +155,7 @@
 
         <div class="white">
 
-          <div class="block my-role container">
+          <div id ="my-role" class="block my-role container">
 
               <span class="h4">Моя роль</span>
 
@@ -145,7 +175,7 @@
 
         <div class="grey">
 
-          <div class="block users container">
+          <div id="users" class="block users container">
               
               <span class="h4">Пользователи</span>
 
@@ -199,7 +229,7 @@
 
           <div class="white">
 
-            <div class="block scenario container">
+            <div id="scenario" class="block scenario container">
               
               <span class="h4">Сценарий</span>
 
@@ -250,109 +280,117 @@
 
           </div>
 
-          <div class="grey">
+          <section id="pattern">
 
-            <div class="block max pattern container">
-              
-              <span class="h4">Паттерн</span>
+            <div class="grey">
 
-              <span class="h1">История о 16 баннерах</span>
-              <p class="text-1">Проработав зональность, определив основные сценарии и, регулярно общаясь с бизнесом и пользователями, выяснили, что уязвимое место на Главной – зона спецпредложений. Не хотелось делать лонгрид огромным, да и утяжелять визуальную составляющую кучей картинок – так же не было желания (предугадать реакцию пользователя на подобный ход легко), а пообщавшись с пользователем, мы укрепились в мысли о минимизации пространства для спецпредложений.</p>
+              <div class="block max pattern container">
+                
+                <span class="h4">Паттерн</span>
 
-              <p class="text-1">Долгое время не было приемлимого решения, поэтому мы стали генерировать гипотезы о том, какие вид и моторику могут иметь спецпредложения, если у нас есть для них всего 1,5 экрана.</p>
+                <span class="h1">История о 16 баннерах</span>
+                <p class="text-1">Проработав зональность, определив основные сценарии и, регулярно общаясь с бизнесом и пользователями, выяснили, что уязвимое место на Главной – зона спецпредложений. Не хотелось делать лонгрид огромным, да и утяжелять визуальную составляющую кучей картинок – так же не было желания (предугадать реакцию пользователя на подобный ход легко), а пообщавшись с пользователем, мы укрепились в мысли о минимизации пространства для спецпредложений.</p>
 
-              <p class="text-1">Счетчик забирал у нас половину отведенной зоны, поэтому во второй половине нужно было разместить 85-90% всех акционных предложений.</p>
+                <p class="text-1">Долгое время не было приемлимого решения, поэтому мы стали генерировать гипотезы о том, какие вид и моторику могут иметь спецпредложения, если у нас есть для них всего 1,5 экрана.</p>
 
-              <p class="text-1">Идея не пришла внезапно, хотя были три инсайта, которые определили будущий паттерн:</p>
+                <p class="text-1">Счетчик забирал у нас половину отведенной зоны, поэтому во второй половине нужно было разместить 85-90% всех акционных предложений.</p>
 
-            </div>
-
-          </div>
-
-          <div class="white">
-
-            <div class="block max pattern container">
-
-                <img src="Images/color-ring.png" alt="color-ring" class="img-2 img-s">
-
-                <div class="tasks">
-
-                  <div class="task">
-
-                    <span class="h3 up-60">1 инсайт – пантон</span>
-                    <p class="text-3">Спецпредложения нужно было сгруппировать. Пока мы это делали, у нас в одном из кабинетов, где мы вели обсуждения, пылился внушительный пантон. В определенный момент к нам зашел дизайнер отдела маркетинга, взял пантон, и мы задали ему, на волне нашего обсуждения, вопрос о цветах и о том, как они «сгруппированны».Дизайнер вкратце ответил, и это на время забылось.</p>
-
-                  </div>
-
-                  <div class="task">
-
-                    <span class="h3">2 инсайт – каталоги образцов</span>
-                    <p class="text-3">Мы часто бывали на обсуждениях в переговорке на первом этаже здания, которое занимает Макслевел. Чтобы пройти в переговорку, нужно пройти через экспозиции мебели и кухонь, где можно было увидеть выставочные образцы, каталоги, стенды с образцами материалов. Кто-то из коллег обратил наше внимание на стенды и сравнил их с каталогами, у которых есть закладки или «мини-ярлыки».</p>
-
-                  </div>
-
-                  <div class="task">
-
-                    <span class="h3">3 инсайт – табы</span>
-                    <p class="text-3">В определенный момент, на одном из обсуждений с представителем аутсорса разработки, пантон, стенды и ярлыки всплыли в памяти и мы, нарисовав от руки несколько скетчей, пришли к паттерну с табами.Относительно визуализации - это не самое изящное решение, но относительно пользовательской моторики, мы учли максимум факторов.</p>
-
-                  </div>
-
-                </div>
-
-                <img src="Images/piece-of-site.png" alt="piece-of-site" class="img-2 img-s up-60">
-
-            </div>
-
-          </div>
-
-          <div class="grey">
-
-            <div class="block max test container">
-
-              <span class="h4">Исследование</span>
-
-              <span class="h1">Что мы использовали для проекта</span>
-              
-              <p class="text-1">Мы использовали несколько типов исследований в процессе редизайна maxlevel.ru.</p>
-
-              <p class="text-1">По объективным причинам, я не смогу описать их так подробно, как бы мне хотелось, но я все равно расскажу о них, хотя бы в общих чертах.</p>
-
-            </div>
-
-          </div>
-
-          <div class="white">
-
-            <div class="block max test container">
-
-              <div class="results">
-
-                <div class="result">
-
-                  <span class="h2">Наблюдение</span>
-                  <p class="text-2">Мы проводили наблюдения скрыто (наблюдали в бутиках за поведением и обсуждениями клиентов), и явно – сплит-тесты. Сплит-тесты коснулись в основном Главной страницы, карточки товара, выдачи в каталоге (когда нужно было понять: в каком вью и в каком количестве показывать товарную выдачу на старницах каталога).</p>
-
-                </div>
-
-                <div class="result">
-
-                  <span class="h2">Опрос</span>
-                  <p class="text-2">Мы проводили интервьюирование с «экспертами» (продавцы, бренд-менеджеры, топ-менеджеры), а так же общались с наиболее контактными клиентами. Фокус-группа и панельное исследование проводились, как внутри компании, так и вне. Анкетирование очное было единовременным, а заочное – клиенты могут в любое время заполнить анкету на сайте.</p>
-
-                </div>
+                <p class="text-1">Идея не пришла внезапно, хотя были три инсайта, которые определили будущий паттерн:</p>
 
               </div>
 
-                <img src="Images/test.png" alt="img-test" class="img img-m up-60">
+            </div>
+
+            <div class="white">
+
+              <div class="block max pattern container">
+
+                  <img src="Images/color-ring.png" alt="color-ring" class="img-2 img-s">
+
+                  <div class="tasks">
+
+                    <div class="task">
+
+                      <span class="h3 up-60">1 инсайт – пантон</span>
+                      <p class="text-3">Спецпредложения нужно было сгруппировать. Пока мы это делали, у нас в одном из кабинетов, где мы вели обсуждения, пылился внушительный пантон. В определенный момент к нам зашел дизайнер отдела маркетинга, взял пантон, и мы задали ему, на волне нашего обсуждения, вопрос о цветах и о том, как они «сгруппированны».Дизайнер вкратце ответил, и это на время забылось.</p>
+
+                    </div>
+
+                    <div class="task">
+
+                      <span class="h3">2 инсайт – каталоги образцов</span>
+                      <p class="text-3">Мы часто бывали на обсуждениях в переговорке на первом этаже здания, которое занимает Макслевел. Чтобы пройти в переговорку, нужно пройти через экспозиции мебели и кухонь, где можно было увидеть выставочные образцы, каталоги, стенды с образцами материалов. Кто-то из коллег обратил наше внимание на стенды и сравнил их с каталогами, у которых есть закладки или «мини-ярлыки».</p>
+
+                    </div>
+
+                    <div class="task">
+
+                      <span class="h3">3 инсайт – табы</span>
+                      <p class="text-3">В определенный момент, на одном из обсуждений с представителем аутсорса разработки, пантон, стенды и ярлыки всплыли в памяти и мы, нарисовав от руки несколько скетчей, пришли к паттерну с табами.Относительно визуализации - это не самое изящное решение, но относительно пользовательской моторики, мы учли максимум факторов.</p>
+
+                    </div>
+
+                  </div>
+
+                  <img src="Images/piece-of-site.png" alt="piece-of-site" class="img-2 img-s up-60">
+
+              </div>
 
             </div>
 
-          </div>
+          </section>
+
+          <section id="test">
+
+            <div class="grey">
+
+              <div id="test" class="block max test container">
+
+                <span class="h4">Исследование</span>
+
+                <span class="h1">Что мы использовали для проекта</span>
+                
+                <p class="text-1">Мы использовали несколько типов исследований в процессе редизайна maxlevel.ru.</p>
+
+                <p class="text-1">По объективным причинам, я не смогу описать их так подробно, как бы мне хотелось, но я все равно расскажу о них, хотя бы в общих чертах.</p>
+
+              </div>
+
+            </div>
+
+            <div class="white">
+
+              <div class="block max test container">
+
+                <div class="results">
+
+                  <div class="result">
+
+                    <span class="h2">Наблюдение</span>
+                    <p class="text-2">Мы проводили наблюдения скрыто (наблюдали в бутиках за поведением и обсуждениями клиентов), и явно – сплит-тесты. Сплит-тесты коснулись в основном Главной страницы, карточки товара, выдачи в каталоге (когда нужно было понять: в каком вью и в каком количестве показывать товарную выдачу на старницах каталога).</p>
+
+                  </div>
+
+                  <div class="result">
+
+                    <span class="h2">Опрос</span>
+                    <p class="text-2">Мы проводили интервьюирование с «экспертами» (продавцы, бренд-менеджеры, топ-менеджеры), а так же общались с наиболее контактными клиентами. Фокус-группа и панельное исследование проводились, как внутри компании, так и вне. Анкетирование очное было единовременным, а заочное – клиенты могут в любое время заполнить анкету на сайте.</p>
+
+                  </div>
+
+                </div>
+
+                  <img src="Images/test.png" alt="img-test" class="img img-m up-60">
+
+              </div>
+
+            </div>
+
+          </section>
 
           <div class="grey">
 
-            <div class="block max conclusion container">
+            <div id="conclusion" class="block max conclusion container">
               
               <span class="h4">Выводы</span>
 
@@ -467,5 +505,78 @@
       </footer> 
 
     </body>
+
+    <script type="text/javascript">
+    jQuery(function(f){
+        var element = f('#second-menu');
+        f(window).scroll(function(){
+            element['fade'+ (f(this).scrollTop() > 1100 ? 'In': 'Out')](200);           
+        });
+        if ($(this).scrollTop() > 1100) {
+          $('#second-menu').addClass('fixed');
+        } else {
+            $('#second-menu').removeClass('fixed');
+        }
+
+        // Плавный скролл по якорям
+        $('a[href^="#"]').click(function () { 
+          elementClick = $(this).attr("href");
+        destination = $(elementClick).offset().top;
+        if($.browser.safari){
+        $('body').animate( { scrollTop: destination }, 1000 );
+        } else {
+            $('html').animate( { scrollTop: destination }, 1000 );
+        }
+        return false;
+       });
+
+      var menu_selector = ".proj"; 
+ 
+      function onScroll(){
+          var scroll_top = $(document).scrollTop();
+          $(menu_selector + " a").each(function(){
+              var hash = $(this).attr("href");
+              var target = $(hash);
+              if (target.position().top <= scroll_top && target.position().top + target.outerHeight() > scroll_top) {
+                  $(menu_selector + " a.active").removeClass("active");
+                  $(this).addClass("active");
+              } else {
+                  $(this).removeClass("active");
+              }
+          });
+      }
+       
+      $(document).ready(function () {
+       
+          $(document).on("scroll", onScroll);
+       
+          $("a[href^=#]").click(function(e){
+              e.preventDefault();
+       
+              $(document).off("scroll");
+              $(menu_selector + " a.active").removeClass("active");
+              $(this).addClass("active");
+              var hash = $(this).attr("href");
+              var target = $(hash);
+       
+              $("html, body").animate({
+                  scrollTop: target.offset().top
+              }, 500, function(){
+                  window.location.hash = hash;
+                  $(document).on("scroll", onScroll);
+              });
+ 
+          });
+       
+      });
+      $(document).ready(function () {
+        $("#proj").smoothDivScroll({
+            mousewheelScrolling: "allDirections",
+            touchScrolling: true,
+            autoScrollingMode: "onStart"
+        });
+      });
+    });
+    </script>
     
   </html>

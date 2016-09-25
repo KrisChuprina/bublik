@@ -77,6 +77,93 @@ body {
   padding: 0 5%;
 }
 
+/*second-menu*/
+
+#second-menu {
+  display: none;
+  width: 100%;
+  background-color: #1a1e23;
+  text-align: center;
+}
+
+#second-menu .active-menu {
+  position: relative;
+  padding: 15px 40px; 
+  width: 100%; 
+}
+
+#second-menu.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+#second-menu ul {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+#second-menu li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#second-menu .active-menu > li:not(:last-of-type) {
+  margin-right: 12%;
+}
+
+#second-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+#second-menu a:hover {
+  color: #989898;
+}
+
+#second-menu .proj {
+  position: absolute;
+  bottom: -38px;
+  left: 0;
+  width: 200%;
+  max-width: 780px;
+  background-color: white;
+}
+
+#second-menu .proj li:not(:last-of-type) {
+  margin-right: 6%;
+}
+
+#second-menu .proj.bl li:not(:last-of-type) {
+  margin-right: 7%;
+}
+
+#second-menu .proj a {
+  color: black;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 11px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#second-menu .proj a:hover,
+#second-menu .proj a.active,
+#second-menu a.active {
+  color: #989898;
+}
+
+#second-menu .proj a:active {
+  color: #989898;
+}
+
 /*Хэдер*/
 
 header .logo {
@@ -1075,6 +1162,34 @@ header a{
     padding: 0 5%;
   }
 
+  /*second-menu*/
+
+  #second-menu > li:not(:last-of-type) {
+    margin-right: 18%;
+  }
+
+  #second-menu a {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  #second-menu a:hover {
+    color: #989898;
+  }
+
+  #second-menu .proj {
+    width: 100%;
+    max-width: 1105px;
+  }
+
+  #second-menu .proj li:not(:last-of-type) {
+    margin-right: 6%;
+  }
+
+  #second-menu .proj a {
+    font-size: 12px;
+    line-height: 13px;
+  }
 
   /*Хедер*/
 
@@ -1964,6 +2079,55 @@ header a{
     width: 1000px;
     padding: 0;
     margin: auto;
+  }
+
+  /*second-menu*/
+
+  #second-menu {
+    display: none;
+    width: 100%;
+    background-color: white;
+    text-align: left;
+  }
+
+  #second-menu .active-menu {
+    display: block;
+    width: 1100px;
+    padding: 20px 50px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+  }
+
+  #second-menu .active-menu > li:not(:last-of-type) {
+    margin-right: 40px;
+  }
+
+  #second-menu a {
+    color: black;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  #second-menu .proj {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 430px;
+    width: 650px;
+    max-width: 650px;
+    background-color: white;
+  }
+
+  #second-menu .proj li:not(:last-of-type) {
+    margin-right: 35px;
+  }
+
+  #second-menu .proj a {
+    font-size: 10px;
+    line-height: 11px;
+    padding-top: 27px;
+    padding-bottom: 27px;
   }
 
   /*Хедер*/
@@ -3154,6 +3318,31 @@ header a{
     margin: auto;
   }
 
+  /*second-menu*/
+
+  #second-menu .active-menu {
+    width: 1440px;
+  }
+
+  #second-menu .active-menu > li:not(:last-of-type) {
+    margin-right: 60px;
+  }
+
+  #second-menu .proj {
+    left: 600px;
+    width: 800px;
+    max-width: 800px;
+  }
+
+  #second-menu .proj li:not(:last-of-type) {
+    margin-right: 50px;
+  }
+
+  #second-menu .proj a {
+    font-size: 12px;
+    line-height: 13px;
+  }
+
   /*Хедер*/
   
   header {
@@ -4224,6 +4413,18 @@ header a{
 
   .about-me .about {
     padding: 300px 0; 
+  }
+
+  /*second-menu*/
+
+  #second-menu {
+    margin-left: 340px;
+    width: 1440px;
+  }
+
+  #second-menu .active-menu {
+    margin-left: 0;
+    margin-right: 0;
   }
 
 }

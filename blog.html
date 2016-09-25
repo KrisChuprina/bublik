@@ -5,10 +5,39 @@
        <title>Blog</title>
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script type='text/javascript' src='js/jquery.1.7.1.min.js'></script>
+       <!-- jQuery Kinectic (1.5) used for touch scrolling -->
+       <script src="js/jquery.kinetic.js" type="text/javascript"></script>
+       <!-- Smooth Div Scroll 1.3 minified-->
+       <script src="js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
 
     </head>
 
     <body>
+
+      <section id="second-menu">
+
+          <ul class="active-menu">
+
+            <li><a href="#">ПРОЕКТЫ</a></li>
+            <li><a class="active" href="#">БЛОГ</a>
+
+              <ul class="proj bl">              
+
+              <li><a class="active" href="#">ОПЫТ ВЗАИМОДЕЙСТВИЯ</a></li>
+              <li><a href="#">ИНТЕРФЕЙСЫ</a></li>
+              <li><a href="#">БИБЛИОТЕКА</a></li>
+              <li><a href="#">СОФТ</a></li>
+              <li><a href="#">ПСИХОЛОГИЯ</a></li>
+              <li><a href="#">ЛИЧНОЕ</a></li>
+
+            </ul> </li>
+
+            <li><a href="#">ОБО МНЕ</a> </li>
+
+          </ul>
+
+        </section>
 
       <header>
         <div class="container">
@@ -292,5 +321,78 @@
       </footer> 
 
     </body>
+
+    <script type="text/javascript">
+    jQuery(function(f){
+        var element = f('#second-menu');
+        f(window).scroll(function(){
+            element['fade'+ (f(this).scrollTop() > 200 ? 'In': 'Out')](200);           
+        });
+        if ($(this).scrollTop() > 200) {
+          $('#second-menu').addClass('fixed');
+        } else {
+            $('#second-menu').removeClass('fixed');
+        }
+
+        // Плавный скролл по якорям
+        $('a[href^="#"]').click(function () { 
+          elementClick = $(this).attr("href");
+        destination = $(elementClick).offset().top;
+        if($.browser.safari){
+        $('body').animate( { scrollTop: destination }, 1000 );
+        } else {
+            $('html').animate( { scrollTop: destination }, 1000 );
+        }
+        return false;
+       });
+
+      var menu_selector = ".proj"; 
+ 
+      function onScroll(){
+          var scroll_top = $(document).scrollTop();
+          $(menu_selector + " a").each(function(){
+              var hash = $(this).attr("href");
+              var target = $(hash);
+              if (target.position().top <= scroll_top && target.position().top + target.outerHeight() > scroll_top) {
+                  $(menu_selector + " a.active").removeClass("active");
+                  $(this).addClass("active");
+              } else {
+                  $(this).removeClass("active");
+              }
+          });
+      }
+       
+      $(document).ready(function () {
+       
+          $(document).on("scroll", onScroll);
+       
+          $("a[href^=#]").click(function(e){
+              e.preventDefault();
+       
+              $(document).off("scroll");
+              $(menu_selector + " a.active").removeClass("active");
+              $(this).addClass("active");
+              var hash = $(this).attr("href");
+              var target = $(hash);
+       
+              $("html, body").animate({
+                  scrollTop: target.offset().top
+              }, 500, function(){
+                  window.location.hash = hash;
+                  $(document).on("scroll", onScroll);
+              });
+ 
+          });
+       
+      });
+      $(document).ready(function () {
+        $("#proj").smoothDivScroll({
+            mousewheelScrolling: "allDirections",
+            touchScrolling: true,
+            autoScrollingMode: "onStart"
+        });
+      });
+    });
+    </script>
 
   </html>
